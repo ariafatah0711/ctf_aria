@@ -85,6 +85,8 @@ def generate_file_list(path, type="md"):
                   file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20")
                 if type == "html":
                   file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20").replace(".md", ".html")
+
+                file = os.path.splitext(file)[0]
                 # output += f"- [{file}]({file_path})\n"
                 output += f" <li><a href='{file_path}'>{file}</a></li>\n"
               
