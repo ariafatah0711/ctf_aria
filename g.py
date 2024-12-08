@@ -65,7 +65,7 @@ git clone https://github.com/ariafatah0711/ctf_aria.git
 """
 
 # Fungsi untuk membuat daftar file markdown
-def generate_file_list(path):
+def generate_file_list(path, type="md"):
     output = ""
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath == path:
@@ -81,7 +81,10 @@ def generate_file_list(path):
 
             for file in markdown_files:
                 # Ganti spasi dengan %20 untuk URL
-                file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20")
+                if type == "md":
+                  file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20")
+                if type == "html":
+                  file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20").replace(".md", ".html")
                 # output += f"- [{file}]({file_path})\n"
                 output += f" <li><a href='{file_path}'>{file}</a></li>\n"
               
@@ -91,11 +94,16 @@ def generate_file_list(path):
 
 # Hasilkan isi File List
 root_path = "."
-file_list_content = generate_file_list(root_path)
-markdown_content = header + file_list_content + footer
+file_list_content_md = generate_file_list(root_path, "md")
+markdown_content_md = header + file_list_content_md + footer
+file_list_content_html = generate_file_list(root_path, "html")
+markdown_content_html = header + file_list_content_html + footer
 
 # Tulis ke README.md
 with open("README.md", "w", encoding='utf-8') as readme:
-    readme.write(markdown_content)
+    readme.write(markdown_content_md)
+
+with open("index.md", "w", encoding='utf-8') as readme:
+    readme.write(markdown_content_html)
 
 print("README.md updated successfully!")
