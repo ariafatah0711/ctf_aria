@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Function to perform Caesar Cipher with a specific shift
+caesar_cipher() {
+    local text="$1"
+    local shift="$2"
+
+    # Generate the translation strings dynamically
+    local upper_from=$(echo {A..Z} | sed "s/ //g")
+    local upper_to=$(echo $upper_from | cut -c$(($shift + 1))-26)$(echo $upper_from | cut -c1-$shift)
+
+    local lower_from=$(echo {a..z} | sed "s/ //g")
+    local lower_to=$(echo $lower_from | cut -c$(($shift + 1))-26)$(echo $lower_from | cut -c1-$shift)
+
+    # Perform translation using `tr`
+    echo "$text" | tr "$upper_from$lower_from" "$upper_to$lower_to"
+}
+
+# Check if the argument is provided
+if [[ -z "$1" ]]; then
+    echo "Usage: $0 \"text\""
+    echo "Generates all Caesar Cipher shifts for the given text."
+    exit 1
+fi
+
+# Get the input text
+text="$1"
+
+# Generate Caesar Cipher outputs for all shifts
+for shift in {1..25}; do
+    result=$(caesar_cipher "$text" "$shift")
+    echo "Shift $shift: $result"
+done
+
+# use ./caesar "OMQEMDUEQMEK"
