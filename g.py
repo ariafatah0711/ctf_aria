@@ -1,9 +1,6 @@
 # by chat gpt
 import os
 
-# Tentukan folder utama (root) tempat pencarian dimulai
-root_path = "."
-
 # Template untuk README.md header
 header = """# ctf_aria
 
@@ -79,20 +76,22 @@ def generate_file_list(path):
             relative_path = os.path.relpath(dirpath, root_path)
             folder_name = os.path.basename(relative_path)
 
-            output += f"<details>\n<summary><b>{relative_path}</b></summary>\n\n"
-            
+            # output += f"<details>\n<summary><b>{relative_path}</b></summary>\n\n"
+            output += f"<details>\n<summary><b>{relative_path}</b></summary>\n<ul>\n"            
+
             for file in markdown_files:
                 # Ganti spasi dengan %20 untuk URL
                 file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20")
-                output += f"- [{file}]({file_path})\n"
-
+                # output += f"- [{file}]({file_path})\n"
+                output += f" <li><a href='{file_path}'>{file}</a></li>\n"
+              
+            output += "</ul>\n"
             output += "\n</details>\n\n"
     return output
 
 # Hasilkan isi File List
+root_path = "."
 file_list_content = generate_file_list(root_path)
-
-# Gabungkan semua bagian
 markdown_content = header + file_list_content + footer
 
 # Tulis ke README.md
