@@ -32,4 +32,6 @@ for shift in {1..25}; do
     echo "Shift $shift: $result"
 done
 
+echo
+
 # use ./caesar "OMQEMDUEQMEK"

@@ -36,12 +36,27 @@ ciphertext  keyfile.dat
 WORKDIR=$(mktemp -d)
 cd $WORKDIR
 
-# encrypt /etc/issue
+# link keyfile.dat
 ln -s /krypton/krypton2/keyfile.dat
 chmod 777 .
-/krypton/krypton2/encrypt /etc/issue
+/krypton/krypton2/encrypt /krypton/krypton2/krypton3
+cat ciphertext 
+# AYCQYPGQCYQW
 
+cat /krypton/krypton2/krypton3 
+# OMQEMDUEQMEK
 
+# solve with cryptii
+## go to https://cryptii.com/pipes/caesar-cipher
+## change the shift=12 if u want decrypt "OMQEMDUEQMEK"
+## change the shift=24 if u want decrypt "AYCQYPGQCYQW"
+
+# solve with my tool
+wget https://raw.githubusercontent.com/ariafatah0711/ctf_aria/refs/heads/main/tool/caesar
+chmod +x caesar
+./caesar "OMQEMDUEQMEK"
+./caesar "AYCQYPGQCYQW"
 ```
 
 # flag
+CAESARISEASY
