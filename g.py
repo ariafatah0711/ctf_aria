@@ -1,15 +1,14 @@
 # by chat gpt
 import os
 
-# Template untuk README.md header
 header = """# ctf_aria
 
 This file is what I studied while learning CTF
 
 <p align="center">
   <a href="#introduction">introduction</a> •
-  <a href="#file-list">file_list</a> •
   <a href="#table-of-contents">table of contents</a> •
+  <a href="#file-list">file_list</a> •
   <a href="#download">Download</a> •
   <a href="#related">Related</a> •
   <a href="#license">License</a>
@@ -75,7 +74,6 @@ git clone https://github.com/ariafatah0711/ctf_aria.git
 <a href="https://github.com/ariafatah0711/ariafatah0711/blob/main/LICENSE" alt="LICENSE"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=MIT&color=000000"></a>
 """
 
-# Fungsi untuk membuat daftar file markdown
 def generate_file_list(path, type="md"):
     output = ""
     for dirpath, dirnames, filenames in os.walk(path):
@@ -105,14 +103,15 @@ def generate_file_list(path, type="md"):
             output += "\n</details>\n\n"
     return output
 
-# Hasilkan isi File List
 root_path = "."
+# md
 file_list_content_md = generate_file_list(root_path, "md")
 markdown_content_md = header + file_list_content_md + footer
+# html
 file_list_content_html = generate_file_list(root_path, "html")
 markdown_content_html = header + file_list_content_html + footer
 
-# Tulis ke README.md
+# write
 with open("README.md", "w", encoding='utf-8') as readme:
     readme.write(markdown_content_md)
 

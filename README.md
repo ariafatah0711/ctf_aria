@@ -4,8 +4,8 @@ This file is what I studied while learning CTF
 
 <p align="center">
   <a href="#introduction">introduction</a> •
-  <a href="#file-list">file_list</a> •
   <a href="#table-of-contents">table of contents</a> •
+  <a href="#file-list">file_list</a> •
   <a href="#download">Download</a> •
   <a href="#related">Related</a> •
   <a href="#license">License</a>
@@ -40,7 +40,7 @@ This file is what I studied while learning CTF
     <li><a href="https:/www.hackthebox.com">hackthebox</a></li>
   </ul></li>
   <li>MATERIAL<ul>
-    <li><a href="https://dimasma0305.github.io/Cyber-Security-Learning-Resources/Resource_List/Link_Bermanfaat">material list</a></li>
+    <li><a href="https://dimasma0305.github.io/Cyber-Security-Learning-Resources/Resource_List/Link_Bermanfaat">material list dimasma0305</a></li>
   </ul></li>
 </ul>
 
