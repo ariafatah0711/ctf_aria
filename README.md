@@ -24,14 +24,25 @@ This file is what I studied while learning CTF
 <p id="table-of-contents"></p>
 
 ## 📋 Table of Contents
-<details>
-  <summary><b>List Resources</b></summary>
 
-  - JEOPARDY
-    - https://play.picoctf.org
-  - BOOT TO ROOT
-    - https://hacktrace-ranges.id
-</details>
+<b>List Resources</b>
+
+<ul>
+  <li>Platform JEOPARDY<ul>
+    <li><a href="https://play.picoctf.org">picoctf</a></li>
+    <li><a href="https://overthewire.org">overthewire</a></li>
+    <li><a href="https://labex.io">labex</a></li>
+    <li><a href="https://pwn.college">pwn.college</a></li>
+  </ul></li>
+  <li>Platform BOOT TO ROOT<ul>
+    <li><a href="https://hacktrace-ranges.id">hacktrace-ranges</a></li>
+    <li><a href="https://tryhackme.com">tryhackme</a></li>
+    <li><a href="https:/www.hackthebox.com">hackthebox</a></li>
+  </ul></li>
+  <li>MATERIAL<ul>
+    <li><a href="https://dimasma0305.github.io/Cyber-Security-Learning-Resources/Resource_List/Link_Bermanfaat">material list</a></li>
+  </ul></li>
+</ul>
 
 <p id="file-list"></p>
 

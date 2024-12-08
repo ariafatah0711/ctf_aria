@@ -4,8 +4,8 @@ URL:      http://natas1.natas.labs.overthewire.org \
 
 # solve
 - login with cred natas1:0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
-- inspect the web if cant right clict
-  - use shorcut developed "CTRL+SHIFT+I"
+- inspect the web if cant right click
+  - use shorcut dev tools "CTRL+SHIFT+I"
 - or use view-source:<url>
 - or use curl
 ```bash
