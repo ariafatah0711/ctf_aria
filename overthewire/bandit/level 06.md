@@ -1,9 +1,9 @@
 # soal
-The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: \
 
-human-readable
-1033 bytes in size
-not executable
+human-readable \
+1033 bytes in size \
+not executable \
 
 # solve
 ```bash

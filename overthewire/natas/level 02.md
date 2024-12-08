@@ -1,6 +1,6 @@
 # soal
-Username: natas2
-URL:      http://natas2.natas.labs.overthewire.org
+Username: natas2 \
+URL:      http://natas2.natas.labs.overthewire.org \
 
 # solve
 - login with cred natas2:TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
