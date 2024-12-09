@@ -50,26 +50,26 @@ This file is what I studied while learning CTF
 <details>
 <summary><b>overthewire\bandit</b></summary>
 <ul>
- <li><a href='overthewire/bandit/level%2001.html'>level 01</a></li>
- <li><a href='overthewire/bandit/level%2002.html'>level 02</a></li>
- <li><a href='overthewire/bandit/level%2003.html'>level 03</a></li>
- <li><a href='overthewire/bandit/level%2004.html'>level 04</a></li>
- <li><a href='overthewire/bandit/level%2005.html'>level 05</a></li>
- <li><a href='overthewire/bandit/level%2006.html'>level 06</a></li>
- <li><a href='overthewire/bandit/level%2007.html'>level 07</a></li>
- <li><a href='overthewire/bandit/level%2008.html'>level 08</a></li>
- <li><a href='overthewire/bandit/level%2009.html'>level 09</a></li>
- <li><a href='overthewire/bandit/level%2010.html'>level 10</a></li>
- <li><a href='overthewire/bandit/level%2011.html'>level 11</a></li>
- <li><a href='overthewire/bandit/level%2012.html'>level 12</a></li>
- <li><a href='overthewire/bandit/level%2013.html'>level 13</a></li>
- <li><a href='overthewire/bandit/level%2014%20un.html'>level 14 un</a></li>
- <li><a href='overthewire/bandit/level%2015%20un.html'>level 15 un</a></li>
- <li><a href='overthewire/bandit/level%2016%20un.html'>level 16 un</a></li>
- <li><a href='overthewire/bandit/level%2017%20un.html'>level 17 un</a></li>
- <li><a href='overthewire/bandit/level%2018%20un.html'>level 18 un</a></li>
- <li><a href='overthewire/bandit/level%2019%20un.html'>level 19 un</a></li>
- <li><a href='overthewire/bandit/level%2020%20un.html'>level 20 un</a></li>
+ <li><a href='overthewire/bandit/level 01.html'>level 01</a></li>
+ <li><a href='overthewire/bandit/level 02.html'>level 02</a></li>
+ <li><a href='overthewire/bandit/level 03.html'>level 03</a></li>
+ <li><a href='overthewire/bandit/level 04.html'>level 04</a></li>
+ <li><a href='overthewire/bandit/level 05.html'>level 05</a></li>
+ <li><a href='overthewire/bandit/level 06.html'>level 06</a></li>
+ <li><a href='overthewire/bandit/level 07.html'>level 07</a></li>
+ <li><a href='overthewire/bandit/level 08.html'>level 08</a></li>
+ <li><a href='overthewire/bandit/level 09.html'>level 09</a></li>
+ <li><a href='overthewire/bandit/level 10.html'>level 10</a></li>
+ <li><a href='overthewire/bandit/level 11.html'>level 11</a></li>
+ <li><a href='overthewire/bandit/level 12.html'>level 12</a></li>
+ <li><a href='overthewire/bandit/level 13.html'>level 13</a></li>
+ <li><a href='overthewire/bandit/level 14 un.html'>level 14 un</a></li>
+ <li><a href='overthewire/bandit/level 15 un.html'>level 15 un</a></li>
+ <li><a href='overthewire/bandit/level 16 un.html'>level 16 un</a></li>
+ <li><a href='overthewire/bandit/level 17 un.html'>level 17 un</a></li>
+ <li><a href='overthewire/bandit/level 18 un.html'>level 18 un</a></li>
+ <li><a href='overthewire/bandit/level 19 un.html'>level 19 un</a></li>
+ <li><a href='overthewire/bandit/level 20 un.html'>level 20 un</a></li>
 </ul>
 
 </details>
@@ -77,11 +77,11 @@ This file is what I studied while learning CTF
 <details>
 <summary><b>overthewire\krypton</b></summary>
 <ul>
- <li><a href='overthewire/krypton/level%2001.html'>level 01</a></li>
- <li><a href='overthewire/krypton/level%2002.html'>level 02</a></li>
- <li><a href='overthewire/krypton/level%2003.html'>level 03</a></li>
- <li><a href='overthewire/krypton/level%2004%20un.html'>level 04 un</a></li>
- <li><a href='overthewire/krypton/level%2005%20un.html'>level 05 un</a></li>
+ <li><a href='overthewire/krypton/level 01.html'>level 01</a></li>
+ <li><a href='overthewire/krypton/level 02.html'>level 02</a></li>
+ <li><a href='overthewire/krypton/level 03.html'>level 03</a></li>
+ <li><a href='overthewire/krypton/level 04 un.html'>level 04 un</a></li>
+ <li><a href='overthewire/krypton/level 05 un.html'>level 05 un</a></li>
 </ul>
 
 </details>
@@ -89,16 +89,16 @@ This file is what I studied while learning CTF
 <details>
 <summary><b>overthewire\natas</b></summary>
 <ul>
- <li><a href='overthewire/natas/level%2000.html'>level 00</a></li>
- <li><a href='overthewire/natas/level%2001.html'>level 01</a></li>
- <li><a href='overthewire/natas/level%2002.html'>level 02</a></li>
- <li><a href='overthewire/natas/level%2003.html'>level 03</a></li>
- <li><a href='overthewire/natas/level%2004.html'>level 04</a></li>
- <li><a href='overthewire/natas/level%2005%20un.html'>level 05 un</a></li>
- <li><a href='overthewire/natas/level%2006%20un.html'>level 06 un</a></li>
- <li><a href='overthewire/natas/level%2007%20un.html'>level 07 un</a></li>
- <li><a href='overthewire/natas/level%2008%20un.html'>level 08 un</a></li>
- <li><a href='overthewire/natas/level%2009%20un.html'>level 09 un</a></li>
+ <li><a href='overthewire/natas/level 00.html'>level 00</a></li>
+ <li><a href='overthewire/natas/level 01.html'>level 01</a></li>
+ <li><a href='overthewire/natas/level 02.html'>level 02</a></li>
+ <li><a href='overthewire/natas/level 03.html'>level 03</a></li>
+ <li><a href='overthewire/natas/level 04.html'>level 04</a></li>
+ <li><a href='overthewire/natas/level 05 un.html'>level 05 un</a></li>
+ <li><a href='overthewire/natas/level 06 un.html'>level 06 un</a></li>
+ <li><a href='overthewire/natas/level 07 un.html'>level 07 un</a></li>
+ <li><a href='overthewire/natas/level 08 un.html'>level 08 un</a></li>
+ <li><a href='overthewire/natas/level 09 un.html'>level 09 un</a></li>
 </ul>
 
 </details>
@@ -106,7 +106,7 @@ This file is what I studied while learning CTF
 <details>
 <summary><b>picoCTF\general</b></summary>
 <ul>
- <li><a href='picoCTF/general/Super%20SSH.html'>Super SSH</a></li>
+ <li><a href='picoCTF/general/Super SSH.html'>Super SSH</a></li>
 </ul>
 
 </details>
