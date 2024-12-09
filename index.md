@@ -63,13 +63,18 @@ This file is what I studied while learning CTF
  <li><a href='overthewire/bandit/level 11.html'>level 11</a></li>
  <li><a href='overthewire/bandit/level 12.html'>level 12</a></li>
  <li><a href='overthewire/bandit/level 13.html'>level 13</a></li>
- <li><a href='overthewire/bandit/level 14 un.html'>level 14 un</a></li>
- <li><a href='overthewire/bandit/level 15 un.html'>level 15 un</a></li>
- <li><a href='overthewire/bandit/level 16 un.html'>level 16 un</a></li>
- <li><a href='overthewire/bandit/level 17 un.html'>level 17 un</a></li>
- <li><a href='overthewire/bandit/level 18 un.html'>level 18 un</a></li>
- <li><a href='overthewire/bandit/level 19 un.html'>level 19 un</a></li>
- <li><a href='overthewire/bandit/level 20 un.html'>level 20 un</a></li>
+ <li><a href='overthewire/bandit/level 14.html'>level 14</a></li>
+ <li><a href='overthewire/bandit/level 15.html'>level 15</a></li>
+ <li><a href='overthewire/bandit/level 16.html'>level 16</a></li>
+ <li><a href='overthewire/bandit/level 17.html'>level 17</a></li>
+ <li><a href='overthewire/bandit/level 18.html'>level 18</a></li>
+ <li><a href='overthewire/bandit/level 19.html'>level 19</a></li>
+ <li><a href='overthewire/bandit/level 20.html'>level 20</a></li>
+ <li><a href='overthewire/bandit/level 21.html'>level 21</a></li>
+ <li><a href='overthewire/bandit/level 22 un.html'>level 22 un</a></li>
+ <li><a href='overthewire/bandit/level 23 un.html'>level 23 un</a></li>
+ <li><a href='overthewire/bandit/level 24 un.html'>level 24 un</a></li>
+ <li><a href='overthewire/bandit/level 25 un.html'>level 25 un</a></li>
 </ul>
 
 </details>
