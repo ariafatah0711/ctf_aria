@@ -76,10 +76,15 @@ git clone https://github.com/ariafatah0711/ctf_aria.git
 
 def generate_file_list(path, type="md"):
     output = ""
+    exclude_dirs = {".git"}
+
     for dirpath, dirnames, filenames in os.walk(path):
+        dirnames[:] = [d for d in dirnames if d not in exclude_dirs] # exclaude
+
         if dirpath == path:
             continue
-        
+          
+        # print(dirpath)
         markdown_files = sorted([f for f in filenames if f.endswith('.md')])
         if markdown_files:
             relative_path = os.path.relpath(dirpath, root_path)
