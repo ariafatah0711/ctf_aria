@@ -32,6 +32,21 @@
                     </a>
                 </h4>
             </header>
+
+            <div>
+                {% if page.previous %}
+                <a href="{{ page.previous }}">
+                    <button>Previous</button>
+                </a>
+                {% endif %}
+
+                {% if page.next %}
+                <a href="{{ page.next }}">
+                    <button>Next</button>
+                </a>
+                {% endif %}
+            </div>
+
             <section id=" downloads" class="clearfix">
                 {% if site.show_downloads %}
                 <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download
