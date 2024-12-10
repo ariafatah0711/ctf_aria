@@ -35,6 +35,62 @@ cat krypton4
 ## sebelum kita mencoba mencari tau pola krypton4 kita perlu mencari pola dengan beberapa teks pada found1 - found3 karena semakin banyak teks nya semakin mudah untuk mendapatkan pola
 ```
 
+## tool cli
+```bash
+scp -P 2231 -r krypton3@krypton.labs.overthewire.org:/krypton/krypton3 .
+# found2                                                  100% 2128    10.3KB/s   00:00
+# krypton4                                                100%   42     0.2KB/s   00:00
+# ...
+
+git clone https://github.com/m-rosinsky/Krypton_Scripts
+cp Krypton_Scripts/freq_analysis.py .
+
+python3 freq_analysis.py found1 1
+# S:      155
+# C:      107
+# Q:      106
+
+python3 freq_analysis.py found1 3
+JDS:    19
+DSN:    11
+QGW:    11
+```
+
+- lagnkah
+  ```
+  KSVVW BGS JDS VSIS VXBMN YQUUK BNWCU ANMJS
+  KeVVW BGe the VeIe VXBMN YQUUK BNWCU ANMte
+
+  tr ["JDS"] ["THE"]
+
+  KeVVW BGe the VeIe VXBMN YQUUK BNWCU ANMte
+  KeVVW oGe the leIe lXoMN YaUUK oNWAU ANMte
+
+  tr ["JDSQB"] ["THEAO"]
+
+  KeVVW oGe the leIe lXoMN YaUUK oNWAU ANMte
+  well WoGe the level XoMN YaUUK oNWAU ANMte
+
+  tr ["JDSQBKVI"] ["THEAOWLV"]
+
+  well WoGe the level XoMN YaUUK oNWAU ANMte
+  well done the level XoMr passK oNWAU ANMte
+
+  tr ["JDSQBKVIWEUYR"] ["THEAOWLVDESPR"]
+
+  well done the level XoMr passK oNWAU ANMte
+  well done the level four password AUANMte
+
+  tr ["JDSQBKVIWEUYRXMK"] ["THEAOWLVDESPRFUW"]
+  ```
+
+- https://www3.nd.edu/~busiforc/handouts/cryptography/cryptography%20hints.html
+  ```bash
+  E T A O I N S H R D L U
+  ```
+
+# nyoba
+
 ## tool
 - https://www.quipqiup.com/
 ![alt text](docs/images/image.png)
