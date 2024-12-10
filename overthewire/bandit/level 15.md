@@ -32,21 +32,6 @@ echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | socat - TCP:localhost:30000
 # 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 ```
 
-- or you can use python but here after i tried it it didn't work
-```py
-import socket
-
-HOST = 'localhost'
-PORT = 3000
-data = "data"
-
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    s.connect((HOST, PORT))
-    s.sendall(data.encode())
-    response = s.recv(1024)
-    print("Received:", response.decode())
-```
-
 ## another option but didn't work 
 ```bash
 # curl for POST web
@@ -60,6 +45,21 @@ echo "data" > /dev/tcp/localhost/3000
 
 # openssl
 echo "data" | openssl s_client -connect localhost:3000 # only secure layer (ssl/tls)
+```
+
+## or you can use python but here after i tried it it didn't work
+```py
+import socket
+
+HOST = 'localhost'
+PORT = 3000
+data = "data"
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.connect((HOST, PORT))
+    s.sendall(data.encode())
+    response = s.recv(1024)
+    print("Received:", response.decode())
 ```
 
 # flag
