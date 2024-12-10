@@ -1,3 +1,10 @@
+---
+layout: level
+level: 2
+next: level%2001.html
+# previous: /level%2003.html
+---
+
 # soal
 The password for the next level is stored in a file called - located in the home directory
 

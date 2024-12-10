@@ -31,6 +31,19 @@
                         '/' | replace: '%20', ' ' }}
                     </a>
                 </h4>
+                <div>
+                    {% if page.previous %}
+                    <a href="{{ page.previous }}">
+                        <button>Previous</button>
+                    </a>
+                    {% endif %}
+
+                    {% if page.next %}
+                    <a href="{{ page.next }}">
+                        <button>Next</button>
+                    </a>
+                    {% endif %}
+                </div>
             </header>
             <section id=" downloads" class="clearfix">
                 {% if site.show_downloads %}
