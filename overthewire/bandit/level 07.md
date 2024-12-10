@@ -1,3 +1,10 @@
+---
+layout: level
+level: 7
+previous: ./level 06.html
+next: ./level 08.html
+---
+
 # soal
 The password for the next level is stored somewhere on the server and has all of the following properties: \
 

@@ -1,7 +1,8 @@
 ---
 layout: level
 level: 1
-next: ./level%2002.html
+# previous: #
+next: ./level 02.html
 ---
 
 # soal

@@ -1,3 +1,10 @@
+---
+layout: level
+level: 6
+previous: ./level 05.html
+next: ./level 07.html
+---
+
 # soal
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: \
 

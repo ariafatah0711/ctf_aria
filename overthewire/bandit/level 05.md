@@ -1,3 +1,10 @@
+---
+layout: level
+level: 5
+previous: ./level 04.html
+next: ./level 06.html
+---
+
 # soal
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 
