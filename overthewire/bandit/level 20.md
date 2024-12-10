@@ -1,3 +1,10 @@
+---
+layout: level
+level: 20
+previous: ./level 19.html
+next: ./level 21.html
+---
+
 # soal
 To gain access to the next level, you should use the setuid binary in the homedirectory. \
 Execute it without arguments to find out how to use it. \

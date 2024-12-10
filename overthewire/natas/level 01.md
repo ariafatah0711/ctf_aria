@@ -1,3 +1,10 @@
+---
+layout: level
+level: 1
+previous: "./level 00.html"
+next: ./level 02.html
+---
+
 # soal
 Username: natas1 \
 URL:      http://natas1.natas.labs.overthewire.org \

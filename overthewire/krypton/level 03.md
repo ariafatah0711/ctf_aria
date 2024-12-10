@@ -1,3 +1,10 @@
+---
+layout: level
+level: 3
+previous: ./level 02.html
+next: ./level 04.html
+---
+
 # soal
 ROT13 is a simple substitution cipher. \
 Substitution ciphers are a simple replacement algorithm. In this example of a substitution cipher, we will explore a ‘monoalphebetic’ cipher. Monoalphebetic means, literally, “one alphabet” and you will see why. \

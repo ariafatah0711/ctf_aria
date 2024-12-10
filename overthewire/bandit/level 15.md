@@ -1,3 +1,10 @@
+---
+layout: level
+level: 15
+previous: ./level 14.html
+next: ./level 16.html
+---
+
 # soal
 The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 

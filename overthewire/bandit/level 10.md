@@ -1,3 +1,10 @@
+---
+layout: level
+level: 10
+previous: ./level 09.html
+next: ./level 11.html
+---
+
 # soal
 The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 

@@ -1,3 +1,10 @@
+---
+layout: level
+level: 12
+previous: ./level 11.html
+next: ./level 13.html
+---
+
 # soal
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 

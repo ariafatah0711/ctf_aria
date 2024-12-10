@@ -1,3 +1,10 @@
+---
+layout: level
+level: 19
+previous: ./level 18.html
+next: ./level 20.html
+---
+
 # soal
 The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
 

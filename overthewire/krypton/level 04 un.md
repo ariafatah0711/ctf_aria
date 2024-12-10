@@ -1,3 +1,10 @@
+---
+layout: level
+level: 4
+previous: ./level 03.html
+next: ./level 05.html
+---
+
 # soal
 Well done. You’ve moved past an easy substitution cipher. \
 The main weakness of a simple substitution cipher is repeated use of a simple key. In the previous exercise you were able to introduce arbitrary plaintext to expose the key. In this example, the cipher mechanism is not available to you, the attacker.

@@ -1,3 +1,10 @@
+---
+layout: level
+level: 11
+previous: ./level 10.html
+next: ./level 12.html
+---
+
 # soal
 The password for the next level is stored in the file data.txt, which contains base64 encoded data
 

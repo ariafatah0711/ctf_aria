@@ -1,3 +1,10 @@
+---
+layout: level
+level: 1
+previous: "#"
+next: ./level 02.html
+---
+
 # soal
 Welcome to Krypton! The first level is easy. The following string encodes the password using Base64: \
 
