@@ -77,7 +77,7 @@ NOTE 2: Keep in mind that your shell script is removed once executed, so you may
     echo -e "[+] change the dir write for $(pwd)/pass" # debug
     ```
 
-    - try executable fro cat the pass
+- try executable fro cat the pass
     ```bash
     cd /var/spool/bandit24/foo
     cat > cat_pass << EOF
