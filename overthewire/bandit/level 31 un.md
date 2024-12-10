@@ -1,8 +1,8 @@
 ---
 layout: level
-level: 27
-previous: ./level 26.html
-next: ./level 28.html
+level: 31
+previous: ./level 30.html
+next: ./level 32.html
 ---
 
 # soal
