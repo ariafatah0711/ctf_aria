@@ -74,11 +74,15 @@ This file is what I studied while learning CTF
  <li><a href='overthewire/bandit/level%2022.md'>level 22</a></li>
  <li><a href='overthewire/bandit/level%2023.md'>level 23</a></li>
  <li><a href='overthewire/bandit/level%2024.md'>level 24</a></li>
- <li><a href='overthewire/bandit/level%2025%20un.md'>level 25 un</a></li>
- <li><a href='overthewire/bandit/level%2026%20un.md'>level 26 un</a></li>
- <li><a href='overthewire/bandit/level%2027%20un.md'>level 27 un</a></li>
- <li><a href='overthewire/bandit/level%2029%20un.md'>level 29 un</a></li>
- <li><a href='overthewire/bandit/level%2030%20un.md'>level 30 un</a></li>
+ <li><a href='overthewire/bandit/level%2025.md'>level 25</a></li>
+ <li><a href='overthewire/bandit/level%2026.md'>level 26</a></li>
+ <li><a href='overthewire/bandit/level%2027.md'>level 27</a></li>
+ <li><a href='overthewire/bandit/level%2028.md'>level 28</a></li>
+ <li><a href='overthewire/bandit/level%2029.md'>level 29</a></li>
+ <li><a href='overthewire/bandit/level%2030.md'>level 30</a></li>
+ <li><a href='overthewire/bandit/level%2031%20un.md'>level 31 un</a></li>
+ <li><a href='overthewire/bandit/level%2032%20un.md'>level 32 un</a></li>
+ <li><a href='overthewire/bandit/level%2033%20un.md'>level 33 un</a></li>
 </ul>
 
 </details>
