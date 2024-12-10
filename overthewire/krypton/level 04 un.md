@@ -35,13 +35,13 @@ cat krypton4
 ## sebelum kita mencoba mencari tau pola krypton4 kita perlu mencari pola dengan beberapa teks pada found1 - found3 karena semakin banyak teks nya semakin mudah untuk mendapatkan pola
 ```
 
-# tool
+## tool
 - https://www.quipqiup.com/
 ![alt text](docs/images/image.png)
 - found1
-```
-in cryptography a caesar cipher also known as a caesars cipher the shift cipher caesars code or caesar shift is one of the simplest and most widely known encryption techniques it is a type of substitution cipher in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet for example with a shift of a would be replaced by db would become e and soon the method is named after julius caesar who used it to communicate with his generals the encryption step performed by a caesar cipher is often incorporated as part of more complex schemes such as the vigenre cipher and still has modern application in the rot system as with all single alphabet substitution ciphers the caesar cipher is easily broken and in practice offers essentially no communication security shakespeare produced most of his known work between and his early plays were mainly comedies and histories genre she raised to the peak of sophistication and artistry by the end of the sixteenth century next he wrote mainly tragedies until about including hamlet king lear and macbeth considered some of the finest examples in the english language in his last phase he wrote tragicomedies also known as romances and collaborated with other playwrights many of his plays were published in editions of varying quality and accuracy during his lifetime and in two of his former theatrical colleagues published the first folio a collected edition of his dramatic works that included all but two of the plays now recognised as shakespeares
-```
+  ```
+  in cryptography a caesar cipher also known as a caesars cipher the shift cipher caesars code or caesar shift is one of the simplest and most widely known encryption techniques it is a type of substitution cipher in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet for example with a shift of a would be replaced by db would become e and soon the method is named after julius caesar who used it to communicate with his generals the encryption step performed by a caesar cipher is often incorporated as part of more complex schemes such as the vigenre cipher and still has modern application in the rot system as with all single alphabet substitution ciphers the caesar cipher is easily broken and in practice offers essentially no communication security shakespeare produced most of his known work between and his early plays were mainly comedies and histories genre she raised to the peak of sophistication and artistry by the end of the sixteenth century next he wrote mainly tragedies until about including hamlet king lear and macbeth considered some of the finest examples in the english language in his last phase he wrote tragicomedies also known as romances and collaborated with other playwrights many of his plays were published in editions of varying quality and accuracy during his lifetime and in two of his former theatrical colleagues published the first folio a collected edition of his dramatic works that included all but two of the plays now recognised as shakespeares
+  ```
 - after that u need for add clue
   ![alt text](docs/images/image-1.png)
   - ex: c=i g=n cr=nl
@@ -51,14 +51,14 @@ in cryptography a caesar cipher also known as a caesars cipher the shift cipher 
   ```
   ![alt text](docs/images/image-2.png)
 - and i change the cipher for teks krytpon4
-```bash
-KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS
+  ```bash
+  KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS
 
-##
-well done the level cour password is brute # yang mendekati ini
-well done g he level cour password is kruge
-hell ton edge level cour was short is prude
-```
+  ##
+  well done the level cour password is brute # yang mendekati ini
+  well done g he level cour password is kruge
+  hell ton edge level cour was short is prude
+  ```
 - namun ketika aku coba ini tidak berhasil mungkin jika menggunakan tool tidak terlalu efektif
 
 # manual
@@ -140,4 +140,3 @@ echo "aria_fatah" | tr -cd aria # compleate delete only show teks a, r, i
 ```
 
 # flag
-brute

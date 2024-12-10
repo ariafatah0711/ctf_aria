@@ -47,20 +47,20 @@ echo "data" > /dev/tcp/localhost/3000
 echo "data" | openssl s_client -connect localhost:3000 # only secure layer (ssl/tls)
 ```
 
-## or you can use python but here after i tried it it didn't work
-```py
-import socket
+- or you can use python but here after i tried it it didn't work
+    ```py
+    import socket
 
-HOST = 'localhost'
-PORT = 3000
-data = "data"
+    HOST = 'localhost'
+    PORT = 3000
+    data = "data"
 
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    s.connect((HOST, PORT))
-    s.sendall(data.encode())
-    response = s.recv(1024)
-    print("Received:", response.decode())
-```
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.connect((HOST, PORT))
+        s.sendall(data.encode())
+        response = s.recv(1024)
+        print("Received:", response.decode())
+    ```
 
 # flag
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
