@@ -129,7 +129,7 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/general/E_Super%20SSH.md'>E_Super SSH</a></li>
  <li><a href='picoCTF/general/E_runme.py.md'>E_runme.py</a></li>
  <li><a href='picoCTF/general/E_strings%20it.md'>E_strings it</a></li>
- <li><a href='picoCTF/general/E_what's%20a%20net%20cat.md'>E_what's a net cat</a></li>
+ <li><a href='picoCTF/general/E_whats%20a%20net%20cat.md'>E_whats a net cat</a></li>
 </ul>
 
 </details>
