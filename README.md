@@ -143,15 +143,20 @@ This file is what I studied while learning CTF
 <details>
 <summary><b>picoCTF\web_exploit</b></summary>
 <ul>
+ <li><a href='picoCTF/web_exploit/E_Bookmarklet.md'>E_Bookmarklet</a></li>
  <li><a href='picoCTF/web_exploit/E_Cookies.md'>E_Cookies</a></li>
  <li><a href='picoCTF/web_exploit/E_GET_aHEAD.md'>E_GET_aHEAD</a></li>
  <li><a href='picoCTF/web_exploit/E_Includes.md'>E_Includes</a></li>
  <li><a href='picoCTF/web_exploit/E_Insp3ct0r.md'>E_Insp3ct0r</a></li>
  <li><a href='picoCTF/web_exploit/E_Inspect_HTML.md'>E_Inspect_HTML</a></li>
+ <li><a href='picoCTF/web_exploit/E_IntroToBurp.md'>E_IntroToBurp</a></li>
+ <li><a href='picoCTF/web_exploit/E_Local%20Authority.md'>E_Local Authority</a></li>
+ <li><a href='picoCTF/web_exploit/E_Scavenger%20Hunt.md'>E_Scavenger Hunt</a></li>
  <li><a href='picoCTF/web_exploit/E_Unminify.md'>E_Unminify</a></li>
  <li><a href='picoCTF/web_exploit/E_WebDecode.md'>E_WebDecode</a></li>
  <li><a href='picoCTF/web_exploit/E_dont-use-client-side.md'>E_dont-use-client-side</a></li>
- <li><a href='picoCTF/web_exploit/E_logon%20un.md'>E_logon un</a></li>
+ <li><a href='picoCTF/web_exploit/E_logon.md'>E_logon</a></li>
+ <li><a href='picoCTF/web_exploit/E_where%20are%20the%20robots.md'>E_where are the robots</a></li>
 </ul>
 
 </details>
