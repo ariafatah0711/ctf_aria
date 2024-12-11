@@ -123,7 +123,13 @@ This file is what I studied while learning CTF
 <details>
 <summary><b>picoCTF\general</b></summary>
 <ul>
- <li><a href='picoCTF/general/Super%20SSH.md'>Super SSH</a></li>
+ <li><a href='picoCTF/general/E_Binary%20Search.md'>E_Binary Search</a></li>
+ <li><a href='picoCTF/general/E_First%20Find.md'>E_First Find</a></li>
+ <li><a href='picoCTF/general/E_Lets%20Warm%20Up.md'>E_Lets Warm Up</a></li>
+ <li><a href='picoCTF/general/E_Super%20SSH.md'>E_Super SSH</a></li>
+ <li><a href='picoCTF/general/E_runme.py.md'>E_runme.py</a></li>
+ <li><a href='picoCTF/general/E_strings%20it.md'>E_strings it</a></li>
+ <li><a href='picoCTF/general/E_what's%20a%20net%20cat.md'>E_what's a net cat</a></li>
 </ul>
 
 </details>
