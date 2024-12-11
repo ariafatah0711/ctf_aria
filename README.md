@@ -121,12 +121,38 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
+<summary><b>picoCTF\cryptography</b></summary>
+<ul>
+ <li><a href='picoCTF/cryptography/E_13.md'>E_13</a></li>
+ <li><a href='picoCTF/cryptography/E_Mod%2026.md'>E_Mod 26</a></li>
+ <li><a href='picoCTF/cryptography/E_The%20Numbers.md'>E_The Numbers</a></li>
+ <li><a href='picoCTF/cryptography/E_interencdec.md'>E_interencdec</a></li>
+</ul>
+
+</details>
+
+<details>
 <summary><b>picoCTF\general</b></summary>
 <ul>
+ <li><a href='picoCTF/general/E_2Warm.md'>E_2Warm</a></li>
+ <li><a href='picoCTF/general/E_Bases.md'>E_Bases</a></li>
  <li><a href='picoCTF/general/E_Binary%20Search.md'>E_Binary Search</a></li>
+ <li><a href='picoCTF/general/E_Codebook.md'>E_Codebook</a></li>
  <li><a href='picoCTF/general/E_First%20Find.md'>E_First Find</a></li>
+ <li><a href='picoCTF/general/E_First%20Grep.md'>E_First Grep</a></li>
  <li><a href='picoCTF/general/E_Lets%20Warm%20Up.md'>E_Lets Warm Up</a></li>
+ <li><a href='picoCTF/general/E_Magikarp%20Ground%20Mission.md'>E_Magikarp Ground Mission</a></li>
+ <li><a href='picoCTF/general/E_Nice%20netcat.md'>E_Nice netcat</a></li>
+ <li><a href='picoCTF/general/E_Obedient%20Cat.md'>E_Obedient Cat</a></li>
+ <li><a href='picoCTF/general/E_Python%20Wrangling.md'>E_Python Wrangling</a></li>
+ <li><a href='picoCTF/general/E_Static%20aint%20always%20noise.md'>E_Static aint always noise</a></li>
  <li><a href='picoCTF/general/E_Super%20SSH.md'>E_Super SSH</a></li>
+ <li><a href='picoCTF/general/E_Tab,%20Tab,%20Attack.md'>E_Tab, Tab, Attack</a></li>
+ <li><a href='picoCTF/general/E_Warmed%20Up.md'>E_Warmed Up</a></li>
+ <li><a href='picoCTF/general/E_Wave%20a%20flag.md'>E_Wave a flag</a></li>
+ <li><a href='picoCTF/general/E_convertme.py.md'>E_convertme.py</a></li>
+ <li><a href='picoCTF/general/E_fixme1.py.md'>E_fixme1.py</a></li>
+ <li><a href='picoCTF/general/E_fixme2.py.md'>E_fixme2.py</a></li>
  <li><a href='picoCTF/general/E_runme.py.md'>E_runme.py</a></li>
  <li><a href='picoCTF/general/E_strings%20it.md'>E_strings it</a></li>
  <li><a href='picoCTF/general/E_whats%20a%20net%20cat.md'>E_whats a net cat</a></li>
