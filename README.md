@@ -128,6 +128,34 @@ This file is what I studied while learning CTF
 
 </details>
 
+<details>
+<summary><b>picoCTF\reverse</b></summary>
+<ul>
+ <li><a href='picoCTF/reverse/E_Transformation.md'>E_Transformation</a></li>
+ <li><a href='picoCTF/reverse/E_vault-door-training.md'>E_vault-door-training</a></li>
+ <li><a href='picoCTF/reverse/M_GDB%20baby%20step%201.md'>M_GDB baby step 1</a></li>
+ <li><a href='picoCTF/reverse/M_GDB%20baby%20step%202%20un.md'>M_GDB baby step 2 un</a></li>
+ <li><a href='picoCTF/reverse/M_Packer.md'>M_Packer</a></li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>picoCTF\web_exploit</b></summary>
+<ul>
+ <li><a href='picoCTF/web_exploit/E_Cookies.md'>E_Cookies</a></li>
+ <li><a href='picoCTF/web_exploit/E_GET_aHEAD.md'>E_GET_aHEAD</a></li>
+ <li><a href='picoCTF/web_exploit/E_Includes.md'>E_Includes</a></li>
+ <li><a href='picoCTF/web_exploit/E_Insp3ct0r.md'>E_Insp3ct0r</a></li>
+ <li><a href='picoCTF/web_exploit/E_Inspect_HTML.md'>E_Inspect_HTML</a></li>
+ <li><a href='picoCTF/web_exploit/E_Unminify.md'>E_Unminify</a></li>
+ <li><a href='picoCTF/web_exploit/E_WebDecode.md'>E_WebDecode</a></li>
+ <li><a href='picoCTF/web_exploit/E_dont-use-client-side.md'>E_dont-use-client-side</a></li>
+ <li><a href='picoCTF/web_exploit/E_logon%20un.md'>E_logon un</a></li>
+</ul>
+
+</details>
+
 <p id="download"></p>
 
 ## 🔨 download
