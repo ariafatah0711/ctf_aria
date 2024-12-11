@@ -22,20 +22,20 @@ URL:      http://natas0.natas.labs.overthewire.org \
   ![alt text](docs/images/image.png)
 - or use view-source:<url>
 - or use curl
-```bash
-curl http://natas0.natas.labs.overthewire.org -u natas0:natas0
-# <html>
-# <head></head>
-# <body>
-# <h1>natas0</h1>
-# <div id="content">
-# You can find the password for the next level on this page.
-# 
-# <!--The password for natas1 is 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq -->
-# </div>
-# </body>
-# </html>
-```
+  ```bash
+  curl http://natas0.natas.labs.overthewire.org -u natas0:natas0
+  # <html>
+  # <head></head>
+  # <body>
+  # <h1>natas0</h1>
+  # <div id="content">
+  # You can find the password for the next level on this page.
+  # 
+  # <!--The password for natas1 is 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq -->
+  # </div>
+  # </body>
+  # </html>
+  ```
 
 # flag
 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
