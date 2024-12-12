@@ -127,6 +127,11 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/cryptography/E_Mod%2026.md'>E_Mod 26</a></li>
  <li><a href='picoCTF/cryptography/E_The%20Numbers.md'>E_The Numbers</a></li>
  <li><a href='picoCTF/cryptography/E_interencdec.md'>E_interencdec</a></li>
+ <li><a href='picoCTF/cryptography/M_Mind%20your%20Ps%20and%20Qs.md'>M_Mind your Ps and Qs</a></li>
+ <li><a href='picoCTF/cryptography/M_caesar.md'>M_caesar</a></li>
+ <li><a href='picoCTF/cryptography/M_rotation.md'>M_rotation</a></li>
+ <li><a href='picoCTF/cryptography/M_un_Mini%20RSA.md'>M_un_Mini RSA</a></li>
+ <li><a href='picoCTF/cryptography/M_un_morse-code.md'>M_un_morse-code</a></li>
 </ul>
 
 </details>
@@ -140,6 +145,7 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/forensics/E_Secret%20of%20the%20Polyglot.md'>E_Secret of the Polyglot</a></li>
  <li><a href='picoCTF/forensics/E_Verify.md'>E_Verify</a></li>
  <li><a href='picoCTF/forensics/E_information.md'>E_information</a></li>
+ <li><a href='picoCTF/forensics/M_un_PcapPoisoning.md'>M_un_PcapPoisoning</a></li>
 </ul>
 
 </details>
@@ -191,8 +197,8 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/reverse/E_Transformation.md'>E_Transformation</a></li>
  <li><a href='picoCTF/reverse/E_vault-door-training.md'>E_vault-door-training</a></li>
  <li><a href='picoCTF/reverse/M_GDB%20baby%20step%201.md'>M_GDB baby step 1</a></li>
- <li><a href='picoCTF/reverse/M_GDB%20baby%20step%202%20un.md'>M_GDB baby step 2 un</a></li>
  <li><a href='picoCTF/reverse/M_Packer.md'>M_Packer</a></li>
+ <li><a href='picoCTF/reverse/M_un_GDB%20baby%20step%202.md'>M_un_GDB baby step 2</a></li>
 </ul>
 
 </details>
