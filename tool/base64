@@ -1,0 +1,16 @@
+#!/bin/bash
+
+teks_base64=$1
+count=$2
+
+if [ -n "$count" ]; then
+  for i in $(seq 1 $count); do
+    teks_base64=$(echo "$teks_base64" | base64 -d | tr -d "\n")
+  done
+else
+  while [[ $teks_base64 =~ ^[A-Za-z0-9+/=]+$ ]]; do
+    teks_base64=$(echo "$teks_base64" | base64 -d | tr -d "\n")
+  done
+fi
+
+echo "$teks_base64"

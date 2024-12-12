@@ -132,27 +132,52 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
+<summary><b>picoCTF\forensics</b></summary>
+<ul>
+ <li><a href='picoCTF/forensics/E_CanYouSee.html'>E_CanYouSee</a></li>
+ <li><a href='picoCTF/forensics/E_Glory of the Garden.html'>E_Glory of the Garden</a></li>
+ <li><a href='picoCTF/forensics/E_Scan Surprise.html'>E_Scan Surprise</a></li>
+ <li><a href='picoCTF/forensics/E_Secret of the Polyglot.html'>E_Secret of the Polyglot</a></li>
+ <li><a href='picoCTF/forensics/E_Verify.html'>E_Verify</a></li>
+ <li><a href='picoCTF/forensics/E_information.html'>E_information</a></li>
+</ul>
+
+</details>
+
+<details>
 <summary><b>picoCTF\general</b></summary>
 <ul>
  <li><a href='picoCTF/general/E_2Warm.html'>E_2Warm</a></li>
  <li><a href='picoCTF/general/E_Bases.html'>E_Bases</a></li>
+ <li><a href='picoCTF/general/E_Big Zip.html'>E_Big Zip</a></li>
  <li><a href='picoCTF/general/E_Binary Search.html'>E_Binary Search</a></li>
+ <li><a href='picoCTF/general/E_Blame Game.html'>E_Blame Game</a></li>
  <li><a href='picoCTF/general/E_Codebook.html'>E_Codebook</a></li>
+ <li><a href='picoCTF/general/E_Collaborative Development.html'>E_Collaborative Development</a></li>
+ <li><a href='picoCTF/general/E_Commitment Issues.html'>E_Commitment Issues</a></li>
  <li><a href='picoCTF/general/E_First Find.html'>E_First Find</a></li>
  <li><a href='picoCTF/general/E_First Grep.html'>E_First Grep</a></li>
+ <li><a href='picoCTF/general/E_Glitch Cat.html'>E_Glitch Cat</a></li>
+ <li><a href='picoCTF/general/E_HashingJobApp.html'>E_HashingJobApp</a></li>
  <li><a href='picoCTF/general/E_Lets Warm Up.html'>E_Lets Warm Up</a></li>
  <li><a href='picoCTF/general/E_Magikarp Ground Mission.html'>E_Magikarp Ground Mission</a></li>
  <li><a href='picoCTF/general/E_Nice netcat.html'>E_Nice netcat</a></li>
  <li><a href='picoCTF/general/E_Obedient Cat.html'>E_Obedient Cat</a></li>
+ <li><a href='picoCTF/general/E_PW Crack 1.html'>E_PW Crack 1</a></li>
+ <li><a href='picoCTF/general/E_PW Crack 2.html'>E_PW Crack 2</a></li>
  <li><a href='picoCTF/general/E_Python Wrangling.html'>E_Python Wrangling</a></li>
  <li><a href='picoCTF/general/E_Static aint always noise.html'>E_Static aint always noise</a></li>
  <li><a href='picoCTF/general/E_Super SSH.html'>E_Super SSH</a></li>
  <li><a href='picoCTF/general/E_Tab, Tab, Attack.html'>E_Tab, Tab, Attack</a></li>
+ <li><a href='picoCTF/general/E_Time Machine.html'>E_Time Machine</a></li>
  <li><a href='picoCTF/general/E_Warmed Up.html'>E_Warmed Up</a></li>
  <li><a href='picoCTF/general/E_Wave a flag.html'>E_Wave a flag</a></li>
+ <li><a href='picoCTF/general/E_binhexa.html'>E_binhexa</a></li>
  <li><a href='picoCTF/general/E_convertme.py.html'>E_convertme.py</a></li>
+ <li><a href='picoCTF/general/E_endianness.html'>E_endianness</a></li>
  <li><a href='picoCTF/general/E_fixme1.py.html'>E_fixme1.py</a></li>
  <li><a href='picoCTF/general/E_fixme2.py.html'>E_fixme2.py</a></li>
+ <li><a href='picoCTF/general/E_repetitions.html'>E_repetitions</a></li>
  <li><a href='picoCTF/general/E_runme.py.html'>E_runme.py</a></li>
  <li><a href='picoCTF/general/E_strings it.html'>E_strings it</a></li>
  <li><a href='picoCTF/general/E_whats a net cat.html'>E_whats a net cat</a></li>

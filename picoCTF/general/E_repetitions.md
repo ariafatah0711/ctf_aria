@@ -1,0 +1,34 @@
+# soal
+Can you make sense of this file? \
+Download the file here.
+
+# hint
+- Multiple decoding is always good.
+
+# solve
+```
+wget https://artifacts.picoctf.net/c/477/enc_flag
+cat enc_flag
+# VmpGU1EyRXlUWGxTYmxKVVYwZFNWbGxyV21GV1JteDBUbFpPYWxKdFVsaFpWVlUxWVZaS1ZWWnVh
+# RmRXZWtab1dWWmtSMk5yTlZWWApiVVpUVm10d1VWZFdVa2RpYlZaWFZtNVdVZ3BpU0VKeldWUkNk
+# MlZXVlhoWGJYQk9VbFJXU0ZkcVRuTldaM0JZVWpGS2VWWkdaSGRXCk1sWnpWV3hhVm1KRk5XOVVW
+# VkpEVGxaYVdFMVhSbHBWV0VKVVZGWmFWMDVHV2tkYVNHUlZDazFyY0ZkVWJGWlhZVlpLU0dWRlZs
+# aGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg==
+
+cat enc_flag | tr -d "\n"
+VmpGU1EyRXlUWGxTYmxKVVYwZFNWbGxyV21GV1JteDBUbFpPYWxKdFVsaFpWVlUxWVZaS1ZWWnVhRmRXZWtab1dWWmtSMk5yTlZWWApiVVpUVm10d1VWZFdVa2RpYlZaWFZtNVdVZ3BpU0VKeldWUkNkMlZXVlhoWGJYQk9VbFJXU0ZkcVRuTldaM0JZVWpGS2VWWkdaSGRXCk1sWnpWV3hhVm1KRk5XOVVWVkpEVGxaYVdFMVhSbHBWV0VKVVZGWmFWMDVHV2tkYVNHUlZDazFyY0ZkVWJGWlhZVlpLU0dWRlZsaGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg==
+
+wget https://raw.githubusercontent.com/ariafatah0711/ctf_aria/refs/heads/main/tool/base64
+chmod +x base64
+# use ./base64 "strings" <count>
+
+/base64 VmpGU1EyRXlUWGxTYmxKVVYwZFNWbGxyV21GV1JteDBUbFpPYWxKdFVsaFpWVlUxWVZaS1ZWWnVhRmRXZWtab1dWWmtSMk5yTlZWWApiVVpUVm10d1VWZFdVa2RpYlZaWFZtNVdVZ3BpU0VKeldWUkNkMlZXVlhoWGJYQk9VbFJXU0ZkcVRuTldaM0JZVWpGS2VWWkdaSGRXCk1sWnpWV3hhVm1KRk5XOVVWVkpEVGxaYVdFMVhSbHBWV0VKVVZGWmFWMDVHV2tkYVNHUlZDazFyY0ZkVWJGWlhZVlpLU0dWRlZsaGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg==
+# picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_de523f49}
+
+# OR spesific the loop
+./base64 VmpGU1EyRXlUWGxTYmxKVVYwZFNWbGxyV21GV1JteDBUbFpPYWxKdFVsaFpWVlUxWVZaS1ZWWnVhRmRXZWtab1dWWmtSMk5yTlZWWApiVVpUVm10d1VWZFdVa2RpYlZaWFZtNVdVZ3BpU0VKeldWUkNkMlZXVlhoWGJYQk9VbFJXU0ZkcVRuTldaM0JZVWpGS2VWWkdaSGRXCk1sWnpWV3hhVm1KRk5XOVVWVkpEVGxaYVdFMVhSbHBWV0VKVVZGWmFWMDVHV2tkYVNHUlZDazFyY0ZkVWJGWlhZVlpLU0dWRlZsaGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg== 6
+# picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_de523f49}
+```
+
+# flag
+picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_de523f49}
