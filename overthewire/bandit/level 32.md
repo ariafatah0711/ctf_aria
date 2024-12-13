@@ -27,6 +27,22 @@ cat README.md
 #     Content: 'May I come in?'
 #     Branch: master
 
+## namun ketika saya baca lagi ternyata di README.md ini adalah intruksi jadi saya mengikutinya
+git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+# pass: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+echo May I come in? > key.txt
+echo "" > .gitignore
+
+git add .
+git commit -m "add"
+
+git push
+# remote: Well done! Here is the password for the next level:
+# remote: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+```
+
+## trash try
+```bash
 git show
 # diff --git a/.gitignore b/.gitignore
 # new file mode 100644
@@ -52,3 +68,4 @@ ls
 ```
 
 # flag
+3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K

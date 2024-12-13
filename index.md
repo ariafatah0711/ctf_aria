@@ -82,7 +82,7 @@ This file is what I studied while learning CTF
  <li><a href='overthewire/bandit/level 29.html'>level 29</a></li>
  <li><a href='overthewire/bandit/level 30.html'>level 30</a></li>
  <li><a href='overthewire/bandit/level 31.html'>level 31</a></li>
- <li><a href='overthewire/bandit/level 32 un.html'>level 32 un</a></li>
+ <li><a href='overthewire/bandit/level 32.html'>level 32</a></li>
  <li><a href='overthewire/bandit/level 33 un.html'>level 33 un</a></li>
 </ul>
 
