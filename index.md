@@ -41,6 +41,7 @@ This file is what I studied while learning CTF
   </ul></li>
   <li>MATERIAL<ul>
     <li><a href="https://dimasma0305.github.io/Cyber-Security-Learning-Resources/Resource_List/Link_Bermanfaat">material list dimasma0305</a></li>
+    <li><a href="https://book.hacktricks.xyz/crypto-and-stego/stego-tricks">hacktricks stego</a></li>
   </ul></li>
 </ul>
 
@@ -100,6 +101,15 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
+<summary><b>overthewire\leviathan</b></summary>
+<ul>
+ <li><a href='overthewire/leviathan/level 01.html'>level 01</a></li>
+ <li><a href='overthewire/leviathan/level 02 un.html'>level 02 un</a></li>
+</ul>
+
+</details>
+
+<details>
 <summary><b>overthewire\natas</b></summary>
 <ul>
  <li><a href='overthewire/natas/level 00.html'>level 00</a></li>
@@ -130,6 +140,7 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/cryptography/M_Easy1.html'>M_Easy1</a></li>
  <li><a href='picoCTF/cryptography/M_Mind your Ps and Qs.html'>M_Mind your Ps and Qs</a></li>
  <li><a href='picoCTF/cryptography/M_Mr-Worldwide.html'>M_Mr-Worldwide</a></li>
+ <li><a href='picoCTF/cryptography/M_So Meta.html'>M_So Meta</a></li>
  <li><a href='picoCTF/cryptography/M_Vigenere.html'>M_Vigenere</a></li>
  <li><a href='picoCTF/cryptography/M_caesar.html'>M_caesar</a></li>
  <li><a href='picoCTF/cryptography/M_rotation.html'>M_rotation</a></li>

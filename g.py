@@ -44,6 +44,7 @@ This file is what I studied while learning CTF
   </ul></li>
   <li>MATERIAL<ul>
     <li><a href="https://dimasma0305.github.io/Cyber-Security-Learning-Resources/Resource_List/Link_Bermanfaat">material list dimasma0305</a></li>
+    <li><a href="https://book.hacktricks.xyz/crypto-and-stego/stego-tricks">hacktricks stego</a></li>
   </ul></li>
 </ul>
 
