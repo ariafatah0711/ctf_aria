@@ -187,6 +187,8 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/general/E_runme.py.md'>E_runme.py</a></li>
  <li><a href='picoCTF/general/E_strings%20it.md'>E_strings it</a></li>
  <li><a href='picoCTF/general/E_whats%20a%20net%20cat.md'>E_whats a net cat</a></li>
+ <li><a href='picoCTF/general/M_ASCII%20Numbers.md'>M_ASCII Numbers</a></li>
+ <li><a href='picoCTF/general/M_Based.md'>M_Based</a></li>
 </ul>
 
 </details>
