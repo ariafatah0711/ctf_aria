@@ -189,8 +189,14 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/general/E_whats%20a%20net%20cat.md'>E_whats a net cat</a></li>
  <li><a href='picoCTF/general/M_ASCII%20Numbers.md'>M_ASCII Numbers</a></li>
  <li><a href='picoCTF/general/M_Based.md'>M_Based</a></li>
+ <li><a href='picoCTF/general/M_PW%20Crack%203.md'>M_PW Crack 3</a></li>
+ <li><a href='picoCTF/general/M_PW%20Crack%204.md'>M_PW Crack 4</a></li>
+ <li><a href='picoCTF/general/M_PW%20Crack%205.md'>M_PW Crack 5</a></li>
  <li><a href='picoCTF/general/M_Permissions.md'>M_Permissions</a></li>
- <li><a href='picoCTF/general/M_un_chrono.md'>M_un_chrono</a></li>
+ <li><a href='picoCTF/general/M_Serpentine.md'>M_Serpentine</a></li>
+ <li><a href='picoCTF/general/M_chrono.md'>M_chrono</a></li>
+ <li><a href='picoCTF/general/M_flag_shop.md'>M_flag_shop</a></li>
+ <li><a href='picoCTF/general/M_plumbing.md'>M_plumbing</a></li>
  <li><a href='picoCTF/general/M_useless.md'>M_useless</a></li>
 </ul>
 
