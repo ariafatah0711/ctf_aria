@@ -189,6 +189,9 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/general/E_whats%20a%20net%20cat.md'>E_whats a net cat</a></li>
  <li><a href='picoCTF/general/M_ASCII%20Numbers.md'>M_ASCII Numbers</a></li>
  <li><a href='picoCTF/general/M_Based.md'>M_Based</a></li>
+ <li><a href='picoCTF/general/M_Permissions.md'>M_Permissions</a></li>
+ <li><a href='picoCTF/general/M_un_chrono.md'>M_un_chrono</a></li>
+ <li><a href='picoCTF/general/M_useless.md'>M_useless</a></li>
 </ul>
 
 </details>
