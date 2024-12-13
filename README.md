@@ -127,9 +127,15 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/cryptography/E_Mod%2026.md'>E_Mod 26</a></li>
  <li><a href='picoCTF/cryptography/E_The%20Numbers.md'>E_The Numbers</a></li>
  <li><a href='picoCTF/cryptography/E_interencdec.md'>E_interencdec</a></li>
+ <li><a href='picoCTF/cryptography/M_Easy1.md'>M_Easy1</a></li>
  <li><a href='picoCTF/cryptography/M_Mind%20your%20Ps%20and%20Qs.md'>M_Mind your Ps and Qs</a></li>
+ <li><a href='picoCTF/cryptography/M_Mr-Worldwide.md'>M_Mr-Worldwide</a></li>
+ <li><a href='picoCTF/cryptography/M_Vigenere.md'>M_Vigenere</a></li>
  <li><a href='picoCTF/cryptography/M_caesar.md'>M_caesar</a></li>
  <li><a href='picoCTF/cryptography/M_rotation.md'>M_rotation</a></li>
+ <li><a href='picoCTF/cryptography/M_substitution0.md'>M_substitution0</a></li>
+ <li><a href='picoCTF/cryptography/M_substitution1.md'>M_substitution1</a></li>
+ <li><a href='picoCTF/cryptography/M_substitution2.md'>M_substitution2</a></li>
  <li><a href='picoCTF/cryptography/M_un_Mini%20RSA.md'>M_un_Mini RSA</a></li>
  <li><a href='picoCTF/cryptography/M_un_morse-code.md'>M_un_morse-code</a></li>
 </ul>
@@ -194,9 +200,11 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/general/M_PW%20Crack%205.md'>M_PW Crack 5</a></li>
  <li><a href='picoCTF/general/M_Permissions.md'>M_Permissions</a></li>
  <li><a href='picoCTF/general/M_Serpentine.md'>M_Serpentine</a></li>
+ <li><a href='picoCTF/general/M_Specialer.md'>M_Specialer</a></li>
  <li><a href='picoCTF/general/M_chrono.md'>M_chrono</a></li>
  <li><a href='picoCTF/general/M_flag_shop.md'>M_flag_shop</a></li>
  <li><a href='picoCTF/general/M_plumbing.md'>M_plumbing</a></li>
+ <li><a href='picoCTF/general/M_un_Special.md'>M_un_Special</a></li>
  <li><a href='picoCTF/general/M_useless.md'>M_useless</a></li>
 </ul>
 
