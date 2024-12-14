@@ -48,6 +48,17 @@ This file is what I studied while learning CTF
 <p id="file-list"></p>
 
 # 📄 File List
+
+<ul>
+  <li>Write Up Lomba Yang Saya Ikuti<ul>
+    <li><a href="https://drive.google.com/drive/folders/1vyxHyRjd-YIiS12Yys3Tfl03jCzN8Q5a?usp=sharing">LKSP Jawa Barat 2024 (#2) 3/5 flag</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1BdVNx5qjON1tRhbKsVNTvZAf4j1kbIcK?usp=sharing">HIDC 2024 (#36)</a></li>
+    <li><a href="https://drive.google.com/drive/folders/1tWKEWgygs_bMwF3wFQvLpKDsLTb0dqCA?usp=sharing">Cyber Nexus 2024 (#) 2/19 flag</a></li>
+  </ul></li>
+  <li>Write Up orang lain<ul>
+    <li><a href="#">a</a></li>
+  </ul></li>
+</ul>
 <details>
 <summary><b>overthewire\bandit</b></summary>
 <ul>
@@ -250,6 +261,7 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/web_exploit/E_dont-use-client-side.html'>E_dont-use-client-side</a></li>
  <li><a href='picoCTF/web_exploit/E_logon.html'>E_logon</a></li>
  <li><a href='picoCTF/web_exploit/E_where are the robots.html'>E_where are the robots</a></li>
+ <li><a href='picoCTF/web_exploit/M_picobrowser.html'>M_picobrowser</a></li>
 </ul>
 
 </details>
