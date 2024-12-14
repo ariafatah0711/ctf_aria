@@ -9,8 +9,8 @@
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
-    border: none;
-    /* list-style-type: none; */
+    /* border: none; */
+    list-style-type: none;
 }
 
 /* summary */
