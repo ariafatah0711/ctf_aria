@@ -68,5 +68,9 @@ li {
     line-height: 1.4;
     margin: 0;
     padding: 0;
-    list-style: none;
+    /* list-style: none; */
+}
+
+li li {
+    list-style: none !important;
 }
