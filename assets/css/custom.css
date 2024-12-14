@@ -1,0 +1,32 @@
+/* custom css */
+/* .inner {
+    width: 1000px !important;
+} */
+
+summary,
+summary::-webkit-details-marker {
+    cursor: pointer;
+    list-style: none;
+}
+
+ul,
+ol {
+    list-style: none !important;
+    padding-left: 2em !important;
+}
+
+li,
+p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+details>summary::before {
+    content: "▶️ ";
+}
+
+details[open]>summary::before {
+    content: "🔽 ";
+}
