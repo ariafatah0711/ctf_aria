@@ -72,5 +72,5 @@ li {
 }
 
 li li {
-    list-style: none !important;
+    list-style-type: none !important;
 }
