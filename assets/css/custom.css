@@ -13,6 +13,7 @@
     list-style-type: none;
 }
 
+/* summary */
 summary,
 summary::-webkit-details-marker {
     cursor: pointer;
@@ -31,6 +32,21 @@ details li {
     padding-left: 1px;
 }
 
+details>summary::before {
+    content: "▶️ ";
+}
+
+details[open]>summary::before {
+    content: "🔽 ";
+}
+
+/* ul li */
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
 li,
 p {
     word-wrap: break-word;
@@ -41,26 +57,7 @@ p {
 
 li {
     line-height: 1.4;
-}
-
-details>summary::before {
-    content: "▶️ ";
-}
-
-details[open]>summary::before {
-    content: "🔽 ";
-}
-
-/* level */
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-left: 10px;
 }
