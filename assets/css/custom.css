@@ -3,16 +3,32 @@
     width: 1000px !important;
 } */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+}
+
 summary,
 summary::-webkit-details-marker {
     cursor: pointer;
     list-style: none;
 }
 
-ul,
-ol {
+details ul,
+details ol {
     list-style: none !important;
     padding-left: 2em !important;
+}
+
+details ul,
+details li {
+    margin: 0;
+    padding-left: 1px;
 }
 
 li,
@@ -29,4 +45,18 @@ details>summary::before {
 
 details[open]>summary::before {
     content: "🔽 ";
+}
+
+/* level */
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    line-height: 1.4;
+    padding-left: 1px;
+    list-style: none;
 }
