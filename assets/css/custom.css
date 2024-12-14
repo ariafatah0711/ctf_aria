@@ -39,6 +39,10 @@ p {
     margin-bottom: 8px;
 }
 
+li {
+    line-height: 1;
+}
+
 details>summary::before {
     content: "▶️ ";
 }
@@ -54,9 +58,9 @@ ol {
     padding: 0;
 }
 
-li {
+ul li {
     margin: 0;
-    line-height: 1.4;
-    padding-left: 1px;
+    padding: 0;
     list-style: none;
+    padding-left: 10px;
 }
