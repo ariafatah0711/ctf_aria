@@ -43,14 +43,7 @@ This file is what I studied while learning CTF
     <li><a href="https://dimasma0305.github.io/Cyber-Security-Learning-Resources/Resource_List/Link_Bermanfaat">material list dimasma0305</a></li>
     <li><a href="https://book.hacktricks.xyz/crypto-and-stego/stego-tricks">hacktricks stego</a></li>
   </ul></li>
-</ul>
-
-<p id="file-list"></p>
-
-# 📄 File List
-
-<ul>
-  <li>Write Up Lomba Yang Saya Ikuti<ul>
+   <li>Write Up Lomba Yang Saya Ikuti<ul>
     <li><a href="https://drive.google.com/drive/folders/1vyxHyRjd-YIiS12Yys3Tfl03jCzN8Q5a?usp=sharing">LKSP Jawa Barat 2024 (#2) 3/5 flag</a></li>
     <li><a href="https://drive.google.com/drive/folders/1BdVNx5qjON1tRhbKsVNTvZAf4j1kbIcK?usp=sharing">HIDC 2024 (#36)</a></li>
     <li><a href="https://drive.google.com/drive/folders/1tWKEWgygs_bMwF3wFQvLpKDsLTb0dqCA?usp=sharing">Cyber Nexus 2024 (#) 2/19 flag</a></li>
@@ -59,6 +52,11 @@ This file is what I studied while learning CTF
     <li><a href="#">a</a></li>
   </ul></li>
 </ul>
+
+<p id="file-list"></p>
+
+# 📄 File List
+
 <details>
 <summary><b>overthewire\bandit</b></summary>
 <ul>
