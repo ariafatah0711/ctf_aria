@@ -267,7 +267,7 @@ This file is what I studied while learning CTF
 <summary><b>ringzer\cryptography</b></summary>
 <ul>
  <li><a href='ringzer/cryptography/1_File recovery.html'>1_File recovery</a></li>
- <li><a href='ringzer/cryptography/1_You're drunk!.html'>1_You're drunk!</a></li>
+ <li><a href='ringzer/cryptography/1_You're drunk.html'>1_You're drunk</a></li>
 </ul>
 
 </details>
