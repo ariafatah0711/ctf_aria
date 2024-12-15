@@ -31,6 +31,7 @@ This file is what I studied while learning CTF
   <li>Platform JEOPARDY<ul>
     <li><a href="https://play.picoctf.org">picoctf</a></li>
     <li><a href="https://overthewire.org">overthewire</a></li>
+    <li><a href="https://ringzer0ctf.com">ringzer0ctf</a></li>
     <li><a href="https://labex.io">labex</a></li>
     <li><a href="https://pwn.college">pwn.college</a></li>
   </ul></li>
@@ -48,8 +49,8 @@ This file is what I studied while learning CTF
     <li><a href="https://drive.google.com/drive/folders/1BdVNx5qjON1tRhbKsVNTvZAf4j1kbIcK?usp=sharing">HIDC 2024 (#36)</a></li>
     <li><a href="https://drive.google.com/drive/folders/1tWKEWgygs_bMwF3wFQvLpKDsLTb0dqCA?usp=sharing">Cyber Nexus 2024 (#) 2/19 flag</a></li>
   </ul></li>
-  <li>Write Up orang lain<ul>
-    <li><a href="#">a</a></li>
+  <li>Tool<ul>
+    <li><a href="https://www.quipqiup.com/">subsitusi cipher</a></li>
   </ul></li>
 </ul>
 
@@ -260,6 +261,25 @@ This file is what I studied while learning CTF
  <li><a href='picoCTF/web_exploit/E_logon.md'>E_logon</a></li>
  <li><a href='picoCTF/web_exploit/E_where%20are%20the%20robots.md'>E_where are the robots</a></li>
  <li><a href='picoCTF/web_exploit/M_picobrowser.md'>M_picobrowser</a></li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>ringzer\cryptography</b></summary>
+<ul>
+ <li><a href='ringzer/cryptography/1_File%20recovery.md'>1_File recovery</a></li>
+ <li><a href='ringzer/cryptography/1_You're%20drunk!.md'>1_You're drunk!</a></li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>ringzer\Jail_Escaping</b></summary>
+<ul>
+ <li><a href='ringzer/Jail_Escaping/bash%20jail%201.md'>bash jail 1</a></li>
+ <li><a href='ringzer/Jail_Escaping/bash%20jail%202.md'>bash jail 2</a></li>
+ <li><a href='ringzer/Jail_Escaping/bash%20jail%203%20un.md'>bash jail 3 un</a></li>
 </ul>
 
 </details>

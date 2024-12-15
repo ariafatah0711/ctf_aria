@@ -34,6 +34,7 @@ This file is what I studied while learning CTF
   <li>Platform JEOPARDY<ul>
     <li><a href="https://play.picoctf.org">picoctf</a></li>
     <li><a href="https://overthewire.org">overthewire</a></li>
+    <li><a href="https://ringzer0ctf.com">ringzer0ctf</a></li>
     <li><a href="https://labex.io">labex</a></li>
     <li><a href="https://pwn.college">pwn.college</a></li>
   </ul></li>
@@ -51,8 +52,8 @@ This file is what I studied while learning CTF
     <li><a href="https://drive.google.com/drive/folders/1BdVNx5qjON1tRhbKsVNTvZAf4j1kbIcK?usp=sharing">HIDC 2024 (#36)</a></li>
     <li><a href="https://drive.google.com/drive/folders/1tWKEWgygs_bMwF3wFQvLpKDsLTb0dqCA?usp=sharing">Cyber Nexus 2024 (#) 2/19 flag</a></li>
   </ul></li>
-  <li>Write Up orang lain<ul>
-    <li><a href="#">a</a></li>
+  <li>Tool<ul>
+    <li><a href="https://www.quipqiup.com/">subsitusi cipher</a></li>
   </ul></li>
 </ul>
 
