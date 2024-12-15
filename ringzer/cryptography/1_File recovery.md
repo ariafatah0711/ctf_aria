@@ -1,5 +1,5 @@
 # soal
-https://ringzer0ctf.com/files/e2c9757d48bd69a357a78223dd4a2bd1.zip
+https://ringzer0ctf.com/files/e2c9757d48bd69a357a78223dd4a2bd1.zip \
 MD5 sum: e2c9757d48bd69a357a78223dd4a2bd1
 
 # solve
