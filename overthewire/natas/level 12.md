@@ -6,7 +6,7 @@ next: ./level 13.html
 ---
 
 # soal
-Username: natas12
+Username: natas12 \
 URL:      http://natas12.natas.labs.overthewire.org
 
 # solve
@@ -28,6 +28,7 @@ URL:      http://natas12.natas.labs.overthewire.org
   ![alt text](docs/images/image-26.png)
 - dan saya hanya perlu mendapatkan file passnya
   ![alt text](docs/images/image-27.png)
+  - ```?c=cat /etc/natas_webpass/natas14```
 
 # flag
 trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC

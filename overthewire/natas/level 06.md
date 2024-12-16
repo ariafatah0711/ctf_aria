@@ -6,7 +6,7 @@ next: ./level 07.html
 ---
 
 # soal
-Username: natas6
+Username: natas6 \
 URL:      http://natas6.natas.labs.overthewire.org
 
 # solve
