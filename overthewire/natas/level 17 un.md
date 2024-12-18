@@ -6,8 +6,8 @@ next: ./level 18.html
 ---
 
 # soal
-Username: natas16
-URL:      http://natas16.natas.labs.overthewire.org
+Username: natas17
+URL:      http://natas17.natas.labs.overthewire.org
 
 # solve
 - 

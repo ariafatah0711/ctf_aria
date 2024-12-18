@@ -232,7 +232,7 @@ This file is what I studied while learning CTF
  <li><a href='overthewire/natas/level 13.html'>level 13</a></li>
  <li><a href='overthewire/natas/level 14.html'>level 14</a></li>
  <li><a href='overthewire/natas/level 15.html'>level 15</a></li>
- <li><a href='overthewire/natas/level 16 un.html'>level 16 un</a></li>
+ <li><a href='overthewire/natas/level 16.html'>level 16</a></li>
  <li><a href='overthewire/natas/level 17 un.html'>level 17 un</a></li>
  <li><a href='overthewire/natas/level 18 un.html'>level 18 un</a></li>
  <li><a href='overthewire/natas/level 19 un.html'>level 19 un</a></li>
