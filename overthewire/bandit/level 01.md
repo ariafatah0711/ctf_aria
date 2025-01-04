@@ -1,6 +1,7 @@
 ---
 layout: default
 level: 1
+page.name_file: level
 previous: "#"
 next: ./level 02.html
 ---

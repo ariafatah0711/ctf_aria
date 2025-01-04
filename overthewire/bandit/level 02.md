@@ -1,6 +1,7 @@
 ---
 layout: default
 level: 2
+page.name_file: level
 previous: ./level 01.html
 next: ./level 03.html
 ---
