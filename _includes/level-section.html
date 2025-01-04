@@ -19,7 +19,7 @@
 
     {% if current_level > 1 %}
     <!-- Format level sebelumnya dengan dua digit -->
-    <a href="./{{ page.name_file }}{{ current_level | minus: 1 | prepend: " 0" | slice: -2 }}.html"
+    <a href="./{{ page.name_file }}{{ (current_level | minus: 1) | number_format: " %02d" }}.html"
         class="page-link">‹</a>
     {% else %}
     <span class="page-link disabled">‹</span>
@@ -34,20 +34,19 @@
         {% assign start_page = end_page | minus: max_display | plus: 1 %}
         {% if start_page < 1 %} {% assign start_page=1 %} {% endif %} {% endif %} {% for i in (start_page..end_page) %}
             <!-- Memastikan level dua digit -->
-            {% assign page_name = i %}
-            {% if i < 10 %} {% assign page_name="0" | append: i %} {% endif %} <!-- Format level halaman dengan dua
-                digit -->
-                {% if i == current_level %}
-                <span class="page-link current">{{ page_name }}</span>
-                {% else %}
-                <a href="./{{ page.name_file }}{{ page_name }}.html" class="page-link">{{ page_name }}</a>
-                {% endif %}
-                {% endfor %}
+            {% assign page_name = i | number_format: "%02d" %}
+            <!-- Format level halaman dengan dua digit -->
+            {% if i == current_level %}
+            <span class="page-link current">{{ page_name }}</span>
+            {% else %}
+            <a href="./{{ page.name_file }}{{ page_name }}.html" class="page-link">{{ page_name }}</a>
+            {% endif %}
+            {% endfor %}
 
-                {% if current_level < total_levels %} <!-- Format level berikutnya dengan dua digit -->
-                    <a href="./{{ page.name_file }}{{ (current_level | plus: 1) | prepend: " 0" | slice: -2 }}.html"
-                        class="page-link">›</a>
-                    {% else %}
-                    <span class="page-link disabled">›</span>
-                    {% endif %}
+            {% if current_level < total_levels %} <!-- Format level berikutnya dengan dua digit -->
+                <a href="./{{ page.name_file }}{{ (current_level | plus: 1) | number_format: " %02d" }}.html"
+                    class="page-link">›</a>
+                {% else %}
+                <span class="page-link disabled">›</span>
+                {% endif %}
 </div>
