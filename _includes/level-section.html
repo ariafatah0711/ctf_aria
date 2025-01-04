@@ -43,9 +43,11 @@
                 {% endif %}
                 {% endfor %}
 
-                {% if current_level < total_levels %} <!-- Format level berikutnya dengan dua digit -->
-                    <a href="./{{ page.name_file }} {{ (current_level | times: 1 | plus: 2)
-                        }}.html" class="page-link">›</a>
+                {% if current_level < 10 %} {% assign page_name="0" | append: current_level %} {% if current_level <
+                    total_levels %} <!-- Format level berikutnya dengan dua digit -->
+                    <!-- <a href="./{{ page.name_file }} {{ (current_level | times: 1 | plus: 2)
+                        }}.html" class="page-link">›</a> -->
+                    <a href="./{{ page.name_file }} {{ page_name }}.html"></a>
                     {% else %}
                     <span class="page-link disabled">›</span>
                     {% endif %}
