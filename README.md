@@ -73,8 +73,10 @@ This file is what I studied while learning CTF
  <li><a href='ringzer/cryptography/1_Some%20martian%20message.md'>1_Some martian message</a></li>
  <li><a href='ringzer/cryptography/1_You%20re%20drunk.md'>1_You re drunk</a></li>
  <li><a href='ringzer/cryptography/2_Martian%20message%20part%202.md'>2_Martian message part 2</a></li>
+ <li><a href='ringzer/cryptography/2_Public%20key%20recovery.md'>2_Public key recovery</a></li>
  <li><a href='ringzer/cryptography/3_I%20Lost%20my%20password%20can%20you%20find%20it.md'>3_I Lost my password can you find it</a></li>
  <li><a href='ringzer/cryptography/3_Martian%20message%20part%203.md'>3_Martian message part 3</a></li>
+ <li><a href='ringzer/cryptography/4_Encrypted%20ZIP%20un.md'>4_Encrypted ZIP un</a></li>
 </ul>
 
 </details>
