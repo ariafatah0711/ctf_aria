@@ -18,7 +18,9 @@
     {% assign max_display = 5 %} <!-- Maksimal angka yang ditampilkan -->
 
     {% if current_level > 1 %}
-    <a href="./{{ page.name_file }}{{ current_level | minus: 1 | prepend: " 0" }}.html" class="page-link">‹</a>
+    <!-- Format level sebelumnya dengan dua digit -->
+    <a href="./{{ page.name_file }}{{ (current_level | minus: 1) | prepend: " 0" | slice: -2 }}.html"
+        class="page-link">‹</a>
     {% else %}
     <span class="page-link disabled">‹</span>
     {% endif %}
@@ -31,16 +33,18 @@
         {% assign end_page = total_levels %}
         {% assign start_page = end_page | minus: max_display | plus: 1 %}
         {% if start_page < 1 %} {% assign start_page=1 %} {% endif %} {% endif %} {% for i in (start_page..end_page) %}
-            {% assign page_name=i | prepend: "0" | slice: -2 %} <!-- Format menjadi 2 digit -->
+            <!-- Format level halaman dengan dua digit -->
+            {% assign page_name = i | prepend: "0" | slice: -2 %} <!-- Format menjadi 2 digit -->
             {% if i == current_level %}
-            <span class="page-link current">{{ i }}</span>
+            <span class="page-link current">{{ page_name }}</span>
             {% else %}
-            <a href="./{{ page.name_file }}{{ page_name }}.html" class="page-link">{{ i }}</a>
+            <a href="./{{ page.name_file }}{{ page_name }}.html" class="page-link">{{ page_name }}</a>
             {% endif %}
             {% endfor %}
 
-            {% if current_level < total_levels %} <a href="./{{ page.name_file }}{{ current_level | plus: 1 | prepend: "
-                0" }}.html" class="page-link">›</a>
+            {% if current_level < total_levels %} <!-- Format level berikutnya dengan dua digit -->
+                <a href="./{{ page.name_file }}{{ (current_level | plus: 1) | prepend: " 0" | slice: -2 }}.html"
+                    class="page-link">›</a>
                 {% else %}
                 <span class="page-link disabled">›</span>
                 {% endif %}
