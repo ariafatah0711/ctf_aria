@@ -45,7 +45,7 @@
                 {% endfor %}
 
                 {% if current_level < total_levels %} <!-- Format level berikutnya dengan dua digit -->
-                    <a href="./{{ page.name_file }} {{ (current_level | plus: 1) | prepend: " 0" }}.html"
+                    <a href="./{{ page.name_file }}{{ (current_level | plus: 2) | number_format: " %02d" }}.html"
                         class="page-link">›</a>
                     {% else %}
                     <span class="page-link disabled">›</span>
