@@ -1,0 +1,13 @@
+<div>
+    {% if page.previous %}
+    <a href="{{ page.previous }}">
+        <button>Previous</button>
+    </a>
+    {% endif %}
+
+    {% if page.next %}
+    <a href="{{ page.next }}">
+        <button>Next</button>
+    </a>
+    {% endif %}
+</div>

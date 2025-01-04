@@ -1,9 +1,11 @@
 ---
-layout: level
+layout: default
 level: 1
 previous: "#"
 next: ./level 02.html
 ---
+
+{% include level-section.html %}
 
 # soal
 The password for the next level is stored in a file called readme located in the home directory. \
