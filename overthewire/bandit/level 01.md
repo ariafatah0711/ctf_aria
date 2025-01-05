@@ -2,8 +2,6 @@
 layout: default
 level: 1
 name_file: level
-previous: "#"
-next: ./level 02.html
 ---
 
 {% include level-section.html %}

@@ -1,3 +1,58 @@
+<style>
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .page-link {
+        display: inline-block;
+        padding: 10px 15px;
+        /* margin: 0 5px; */
+        text-decoration: none;
+        color: #007bff;
+        /* border: 1px solid #ddd; */
+        /* border-radius: 5px; */
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .page-link:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .page-link.disabled {
+        color: #ccc;
+        pointer-events: none;
+    }
+
+    .page-link.current {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+    .page-link:active {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+
+    .page-link.prev,
+    .page-link.next {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .page-link.prev:hover,
+    .page-link.next:hover {
+        background-color: #0056b3;
+        color: white;
+    }
+</style>
+
 <div class="pagination">
     {% assign total_levels = site.pages | where: "layout", "level" | size %} <!-- Total level -->
     {% assign current_level = page.level %} <!-- Level sekarang -->

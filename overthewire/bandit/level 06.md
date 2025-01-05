@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 6
-previous: ./level 05.html
-next: ./level 07.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
