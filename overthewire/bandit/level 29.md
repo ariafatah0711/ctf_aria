@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 29
-previous: ./level 28.html
-next: ./level 30.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 There is a git repository at ssh://bandit28-git@localhost/home/bandit28-git/repo via the port 2220. The password for the user bandit28-git is the same as for the user bandit28.

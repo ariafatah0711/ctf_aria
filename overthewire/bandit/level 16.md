@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 16
-previous: ./level 15.html
-next: ./level 17.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL/TLS encryption.
