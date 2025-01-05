@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 1
-previous: "#"
-next: ./level 02.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 Leviathan’s levels are called leviathan0, leviathan1, … etc. and can be accessed on leviathan.labs.overthewire.org through SSH on port 2223.

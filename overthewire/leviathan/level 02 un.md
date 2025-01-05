@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 2
-previous: ./level 01.html
-next: ./level 03.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # solve
 ```bash
