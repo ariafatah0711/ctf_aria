@@ -1,9 +1,10 @@
 ---
-layout: level
-level: 1
-previous: "./level 00.html"
-next: ./level 02.html
+layout: default
+test_level1
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 Username: natas1 \

@@ -1,9 +1,10 @@
 ---
-layout: level
-level: 3
-previous: ./level 02.html
-next: ./level 04.html
+layout: default
+test_level3
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 ROT13 is a simple substitution cipher. \

@@ -1,9 +1,10 @@
 ---
-layout: level
-level: 4
-previous: ./level 03.html
-next: ./level 05.html
+layout: default
+test_level4
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 Well done. You’ve moved past an easy substitution cipher. \

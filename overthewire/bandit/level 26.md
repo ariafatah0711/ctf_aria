@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 26
-previous: ./level 25.html
-next: ./level 27.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it.

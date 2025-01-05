@@ -1,9 +1,10 @@
 ---
-layout: level
-level: 2
-previous: ./level 01.html
-next: ./level 03.html
+layout: default
+test_level2
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 The password for level 2 is in the file ‘krypton2’. It is ‘encrypted’ using a simple rotation. \

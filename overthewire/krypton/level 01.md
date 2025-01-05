@@ -1,9 +1,10 @@
 ---
-layout: level
-level: 1
-previous: "#"
-next: ./level 02.html
+layout: default
+test_level1
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 Welcome to Krypton! The first level is easy. The following string encodes the password using Base64:

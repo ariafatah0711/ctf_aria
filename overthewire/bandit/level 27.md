@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 27
-previous: ./level 26.html
-next: ./level 28.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 Good job getting a shell! Now hurry and grab the password for bandit27!

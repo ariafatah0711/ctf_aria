@@ -1,9 +1,10 @@
 ---
-layout: level
+layout: default
 level: 18
-previous: ./level 17.html
-next: ./level 19.html
+name_file: level
 ---
+
+{% include level-section.html %}
 
 # soal
 There are 2 files in the homedirectory: passwords.old and passwords.new. \
