@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 33
-name_file: level
+previous: ./level 32.html
+next: "#"
 ---
-
-{% include level-section.html %}
 
 # soal
 After all this git stuff, it’s time for another escape. Good luck!

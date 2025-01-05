@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 20
-name_file: level
+previous: ./level 19.html
+next: ./level 21.html
 ---
-
-{% include level-section.html %}
 
 # soal
 To gain access to the next level, you should use the setuid binary in the homedirectory. \

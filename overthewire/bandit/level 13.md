@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 13
-name_file: level
+previous: ./level 12.html
+next: ./level 14.html
 ---
-
-{% include level-section.html %}
 
 # soal
 The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. \

@@ -1,10 +1,9 @@
 ---
-layout: default
-test_level16
-name_file: level
+layout: level
+level: 16
+previous: ./level 15.html
+next: ./level 17.html
 ---
-
-{% include level-section.html %}
 
 # soal
 Username: natas16

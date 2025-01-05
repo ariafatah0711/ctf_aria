@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 14
-name_file: level
+previous: ./level 13.html
+next: ./level 15.html
 ---
-
-{% include level-section.html %}
 
 # soal
 The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. \

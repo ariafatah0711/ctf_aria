@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 19
-name_file: level
+previous: ./level 18.html
+next: ./level 20.html
 ---
-
-{% include level-section.html %}
 
 # soal
 The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.

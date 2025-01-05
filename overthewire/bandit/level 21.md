@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 21
-name_file: level
+previous: ./level 20.html
+next: ./level 22.html
 ---
-
-{% include level-section.html %}
 
 # soal
 There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. \

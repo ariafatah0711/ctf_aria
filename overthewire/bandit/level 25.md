@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 25
-name_file: level
+previous: ./level 24.html
+next: ./level 26.html
 ---
-
-{% include level-section.html %}
 
 # soal
 A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. \

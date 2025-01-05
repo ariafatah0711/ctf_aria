@@ -16,9 +16,6 @@ relative_links:
 # exclaude and include
 exclude:
   - README.md
-  - overthewire/krypton/*
-  - overthewire/leviathan/*
-  - overthewire/natas/*
 
 include:
   - "*.md"

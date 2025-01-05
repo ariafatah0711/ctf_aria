@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 22
-name_file: level
+previous: ./level 21.html
+next: ./level 23.html
 ---
-
-{% include level-section.html %}
 
 # soal
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.

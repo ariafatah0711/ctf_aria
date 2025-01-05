@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: level
 level: 28
-name_file: level
+previous: ./level 27.html
+next: ./level 29.html
 ---
-
-{% include level-section.html %}
 
 # soal
 There is a git repository at ssh://bandit27-git@localhost/home/bandit27-git/repo via the port 2220. \
