@@ -13,10 +13,15 @@ human-readable \
 1033 bytes in size \
 not executable
 
+# ssh
+```bash
+sshpass -p "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw" ssh -o StrictHostKeyChecking=no bandit5@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
-find . -size 1033c ! -perm 111
-cat ./maybehere07/.file2
+find . -size 1033c -readable ! -perm 111
+cat ./inhere/maybehere07/.file2
 ```
 
 # flag

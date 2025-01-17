@@ -10,10 +10,17 @@ name_file: level
 The password for the next level is stored in the only human-readable file in the inhere directory. \
 Tip: if your terminal is messed up, try the “reset” command.
 
+# ssh
+```bash
+sshpass -p "2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ" ssh -o StrictHostKeyChecking=no bandit4@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 cd inhere/
 grep -r ../
+
+grep . -r inhere/
 # grep: -file06: binary file matches
 # bandit4@bandit:~/inhere$ grep -r ../.
 # bandit4@bandit:~/inhere$ grep -r .

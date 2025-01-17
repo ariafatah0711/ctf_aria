@@ -13,6 +13,11 @@ owned by user bandit7 \
 owned by group bandit6 \
 33 bytes in size
 
+# ssh
+```bash
+sshpass -p "HWasnPhtq9AVKe0dmk45nxy20cvUa6EG" ssh -o StrictHostKeyChecking=no bandit6@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
