@@ -9,6 +9,11 @@ name_file: level
 # soal
 Good job getting a shell! Now hurry and grab the password for bandit27!
 
+# ssh
+```bash
+sshpass -p "s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ" ssh -o StrictHostKeyChecking=no bandit26@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
  ls -la bandit27-do
@@ -23,6 +28,26 @@ Good job getting a shell! Now hurry and grab the password for bandit27!
 # bandit27
 ./bandit27-do cat /etc/bandit_pass/bandit27
 # upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+```
+
+## solve auto but not work
+```bash
+#!/bin/bash
+
+echo "[+] Starting automated SSH connection with Vim handling"
+
+# Set password and server information
+PASSWORD="iCi86ttT4KSNe1armKiwbQNmB3YJP3q4"
+SERVER="bandit.labs.overthewire.org"
+PORT=2220
+USER="bandit25"
+
+# Jalankan SSH dengan alokasi terminal interaktif dan bypass host key verification
+sshpass -p "$PASSWORD" ssh -tt -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null "$USER@$SERVER" -p "$PORT" <<EOF
+ssh -tt -i bandit26.sshkey -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null bandit26@localhost -p 2220
+EOF
+
+echo "[+] SSH session completed"
 ```
 
 # flag

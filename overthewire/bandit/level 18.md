@@ -12,6 +12,11 @@ The password for the next level is in passwords.new and is the only line that ha
 
 NOTE: if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19
 
+# ssh
+```bash
+sshpass -p "EReVavePLFHtFlFsjn3hyzMlvSuSAcRD" ssh -o StrictHostKeyChecking=no bandit17@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 diff passwords.old passwords.new 

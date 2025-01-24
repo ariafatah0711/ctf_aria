@@ -21,6 +21,7 @@ sshpass -p "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw" ssh -o StrictHostKeyChecking=no ba
 # solve
 ```bash
 find . -size 1033c -readable ! -perm 111
+find . -size 1033c -readable ! -executable
 cat ./inhere/maybehere07/.file2
 ```
 

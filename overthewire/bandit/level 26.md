@@ -11,6 +11,11 @@ Logging in to bandit26 from bandit25 should be fairly easy… The shell for user
 
 NOTE: if you’re a Windows user and typically use Powershell to ssh into bandit: Powershell is known to cause issues with the intended solution to this level. You should use command prompt instead.
 
+# ssh
+```bash
+sshpass -p "iCi86ttT4KSNe1armKiwbQNmB3YJP3q4" ssh -o StrictHostKeyChecking=no bandit25@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 cat bandit26.sshkey
@@ -24,12 +29,14 @@ ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220 -vvv
 ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220 -t /bin/sh # change the tty
 ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220 -T # tanpa tty
 ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220  "whoami" # run command
-ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p ^C20 -t /bin/sh "cat /etc/bandit_pass/bandit26 > /tmp/tmp.nvaRc1Ef3g/pass" # input only
+ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220 -t /bin/sh "cat /etc/bandit_pass/bandit26 > /tmp/tmp.nvaRc1Ef3g/pass" # input only
 ```
 
 - namun kareana saya sudah mencoba namun tidak ada yang berhasil jadi saya mencari di youtube dan mencari solusinya
 - disini saya menemukan solusi dengan mengecilkan layar maka nanti kita seolah seolah sedang menggunakan perintah less
-  ```ssh -i bandit26 bandit26@localhost -p 2220```
+  ```bash
+  ssh -i bandit26.sshkey bandit26@localhost -p 2220
+  ```
   ![alt text](docs/images/image-1.png)
   ![alt text](docs/images/image.png)
 - jika sudah kita bisa click "v" untuk masuk ke vim editor

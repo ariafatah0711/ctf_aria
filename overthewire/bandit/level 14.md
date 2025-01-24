@@ -12,6 +12,11 @@ For this level, you don’t get the next password, but you get a private SSH key
 
 Note: localhost is a hostname that refers to the machine you are working on
 
+# ssh
+```bash
+sshpass -p "FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn" ssh -o StrictHostKeyChecking=no bandit13@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 ls -la sshkey.private 

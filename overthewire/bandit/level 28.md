@@ -12,6 +12,11 @@ The password for the user bandit27-git is the same as for the user bandit27.
 
 Clone the repository and find the password for the next level.
 
+# ssh
+```bash
+sshpass -p "upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB" ssh -o StrictHostKeyChecking=no bandit27@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 workdir=$(mktemp -d)

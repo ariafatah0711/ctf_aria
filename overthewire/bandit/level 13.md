@@ -13,6 +13,11 @@ For this level it may be useful to create a directory under /tmp in which you ca
 Use mkdir with a hard to guess directory name. \
 Or better, use the command “mktemp -d”. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
+# ssh
+```bash
+sshpass -p "7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4" ssh -o StrictHostKeyChecking=no bandit12@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 # change the workdir to value (command mktemp -d)

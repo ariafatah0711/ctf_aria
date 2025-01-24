@@ -11,6 +11,11 @@ The password for the next level can be retrieved by submitting the password of t
 
 Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read the “CONNECTED COMMANDS” section in the manpage.
 
+# ssh
+```bash
+sshpass -p "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" ssh -o StrictHostKeyChecking=no bandit15@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 ## ncat

@@ -11,6 +11,11 @@ There is a git repository at ssh://bandit31-git@localhost/home/bandit31-git/repo
 
 Clone the repository and find the password for the next level.
 
+# ssh
+```bash
+sshpass -p "fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy" ssh -o StrictHostKeyChecking=no bandit31@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 workdir=$(mktemp -d)

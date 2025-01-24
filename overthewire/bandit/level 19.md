@@ -9,6 +9,11 @@ name_file: level
 # soal
 The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
 
+# ssh
+```bash
+sshpass -p "x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO" ssh -o StrictHostKeyChecking=no bandit18@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 ssh bandit18@bandit.labs.overthewire.org -p 2220
@@ -35,6 +40,10 @@ sftp> get readme
 # Fetching /home/bandit18/readme to readme
 # readme  100%   33     0.1KB/s   00:00 
 cat readme # cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+## or auto
+sshpass -p "x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO" ssh -o StrictHostKeyChecking=no bandit18@bandit.labs.overthewire.org -p 2220 -t /bin/sh
+sshpass -p "x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO" ssh -o StrictHostKeyChecking=no bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
 ```
 
 # flag

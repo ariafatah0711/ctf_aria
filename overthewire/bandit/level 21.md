@@ -13,6 +13,11 @@ If the password is correct, it will transmit the password for the next level (ba
 
 NOTE: Try connecting to your own network daemon to see if it works as you think
 
+# ssh
+```bash
+sshpass -p "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" ssh -o StrictHostKeyChecking=no bandit20@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 ls -la suconnect 

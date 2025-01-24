@@ -9,6 +9,11 @@ name_file: level
 # soal
 The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 
+# ssh
+```bash
+sshpass -p "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" ssh -o StrictHostKeyChecking=no bandit14@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 ## netcat / nc

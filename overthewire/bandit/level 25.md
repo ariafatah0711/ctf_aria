@@ -11,6 +11,11 @@ A daemon is listening on port 30002 and will give you the password for bandit25 
 There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing. \
 You do not need to create new connections each time
 
+# ssh
+```bash
+sshpass -p "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8" ssh -o StrictHostKeyChecking=no bandit24@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8" | nc localhost 30002

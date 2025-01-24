@@ -9,6 +9,11 @@ name_file: level
 # soal
 After all this git stuff, it’s time for another escape. Good luck!
 
+# ssh
+```bash
+sshpass -p "3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K" ssh -o StrictHostKeyChecking=no bandit32@bandit.labs.overthewire.org -p 2220
+```
+
 # solve
 ```bash
 WELCOME TO THE UPPERCASE SHELL
