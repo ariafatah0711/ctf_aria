@@ -57,6 +57,15 @@ This file is what I studied while learning CTF
 # 📄 File List
 
 <details>
+<summary><b>thm_ctf</b></summary>
+<ul>
+ <li><a href='thm_ctf/E1_rootme.html'>E1_rootme</a></li>
+ <li><a href='thm_ctf/_step_by_step.html'>_step_by_step</a></li>
+</ul>
+
+</details>
+
+<details>
 <summary><b>ringzer/Jail_Escaping</b></summary>
 <ul>
  <li><a href='ringzer/Jail_Escaping/bash jail 1.html'>bash jail 1</a></li>
