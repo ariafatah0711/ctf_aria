@@ -15,24 +15,24 @@
 
 # Solve (Visual)
 ## information gathering
-- Saya memulai dengan melakukan pemindaian menggunakan nmap.
-  ![alt text](docs/images/image-18.png)
+- Saya memulai dengan melakukan pemindaian menggunakan nmap. \
+![alt text](docs/images/image-18.png)
 - Hasil pemindaian menunjukkan bahwa port 21 (FTP) terbuka, dan memungkinkan login dengan user anonim.
-- Saya kemudian mengunduh file yang tersedia di server FTP menggunakan perintah get.
-  ![alt text](docs/images/image-17.png)
-- Setelah mengecek isi file, saya menemukan sebuah wordlist yang kemungkinan dapat digunakan untuk mencoba akses SSH.
-  ![alt text](docs/images/image-19.png)
+- Saya kemudian mengunduh file yang tersedia di server FTP menggunakan perintah get. \
+![alt text](docs/images/image-17.png)
+- Setelah mengecek isi file, saya menemukan sebuah wordlist yang kemungkinan dapat digunakan untuk mencoba akses SSH. \
+![alt text](docs/images/image-19.png)
 
 ## exploit
-- Saya melakukan bruteforce terhadap akun lin menggunakan wordlist yang telah ditemukan, dengan hydra.
-  ![alt text](docs/images/image-20.png)
-- Setelah berhasil mendapatkan kredensial yang valid, saya masuk ke sistem dan berhasil menemukan flag user.
-  ![alt text](docs/images/image-21.png)
+- Saya melakukan bruteforce terhadap akun lin menggunakan wordlist yang telah ditemukan, dengan hydra. \
+![alt text](docs/images/image-20.png)
+- Setelah berhasil mendapatkan kredensial yang valid, saya masuk ke sistem dan berhasil menemukan flag user. \
+![alt text](docs/images/image-21.png)
 
 ## post exploit
 - Selanjutnya, saya melakukan pencarian SUID dan memeriksa hak akses sudo.
-- Dari hasil pemeriksaan, ditemukan bahwa pengguna memiliki izin untuk menjalankan perintah tar dengan sudo, yang dapat digunakan untuk meningkatkan hak akses
-  ![alt text](docs/images/image-22.png)
+- Dari hasil pemeriksaan, ditemukan bahwa pengguna memiliki izin untuk menjalankan perintah tar dengan sudo, yang dapat digunakan untuk meningkatkan hak akses \
+![alt text](docs/images/image-22.png)
 
 # Solve (Text-Based)
 ## information gathering
