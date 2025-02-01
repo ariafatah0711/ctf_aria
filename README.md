@@ -61,6 +61,7 @@ This file is what I studied while learning CTF
 <ul>
  <li><a href='thm_ctf/E1_bounty%20hacker.md'>E1_bounty hacker</a></li>
  <li><a href='thm_ctf/E1_rootme.md'>E1_rootme</a></li>
+ <li><a href='thm_ctf/E2_basic_pentesting.md'>E2_basic_pentesting</a></li>
  <li><a href='thm_ctf/_step_by_step.md'>_step_by_step</a></li>
 </ul>
 

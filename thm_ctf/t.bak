@@ -20,18 +20,25 @@
 # Solve (Text-Based)
 ## information gathering
 ```bash
-: '[+] setup'
+: 'setup'
 ip=
-tun=
+tun=10.21.78.122
 
-: '[+] nmap'
+: 'nmap'
 
-: '[+] whatweb'
+: 'whatweb'
 
-: '[+] Directory Discovery (gobuster, dirsearch, dirbuster(gui))'
+: 'Directory Discovery'
+
+: 'enum4linux'
 ```
 
 ## exploit
-
+```bash
+: ''
+```
 
 ## post exploit
+```bash
+: ''
+```
