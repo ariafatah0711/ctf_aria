@@ -19,6 +19,9 @@ Enjoy.
 # ssh
 ```bash
 sshpass -p "CAESARISEASY" ssh -o StrictHostKeyChecking=no krypton3@krypton.labs.overthewire.org -p 2231
+
+# scp
+sshpass -p "CAESARISEASY" scp -R -P 2231 krypton3@krypton.labs.overthewire.org:/krypton/krypton3/* krypton3
 ```
 
 # solve
@@ -74,7 +77,6 @@ sebelum kita mencoba mencari tau pola krypton4 kita perlu mencari pola dengan be
 
 ## solve with manual (cli) (belum berhasil)
 ```bash
-scp -P 2231 -r krypton3@krypton.labs.overthewire.org:/krypton/krypton3 .
 git clone https://github.com/m-rosinsky/Krypton_Scripts
 cp Krypton_Scripts/freq_analysis.py .
 

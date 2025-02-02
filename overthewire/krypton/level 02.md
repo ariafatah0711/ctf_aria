@@ -14,6 +14,9 @@ This file has kept the plain text word boundaries and carried them to the cipher
 # ssh
 ```bash
 sshpass -p "KRYPTONISGREAT" ssh -o StrictHostKeyChecking=no krypton1@krypton.labs.overthewire.org -p 2231
+
+# scp
+sshpass -p "KRYPTONISGREAT" scp -R -P 2231 krypton1@krypton.labs.overthewire.org:/krypton/krypton1/* krypton1
 ```
 
 # solve

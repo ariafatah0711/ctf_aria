@@ -301,7 +301,9 @@ This file is what I studied while learning CTF
  <li><a href='overthewire/krypton/level%2002.md'>level 02</a></li>
  <li><a href='overthewire/krypton/level%2003.md'>level 03</a></li>
  <li><a href='overthewire/krypton/level%2004.md'>level 04</a></li>
- <li><a href='overthewire/krypton/level%2005%20un.md'>level 05 un</a></li>
+ <li><a href='overthewire/krypton/level%2005.md'>level 05</a></li>
+ <li><a href='overthewire/krypton/level%2006.md'>level 06</a></li>
+ <li><a href='overthewire/krypton/level%2007%20un.md'>level 07 un</a></li>
 </ul>
 
 </details>
