@@ -43,7 +43,7 @@ ciphertext  keyfile.dat
 sshpass -p "ROTTEN" ssh -o StrictHostKeyChecking=no krypton2@krypton.labs.overthewire.org -p 2231
 
 # scp
-sshpass -p "ROTTEN" scp -R -P 2231 krypton2@krypton.labs.overthewire.org:/krypton/krypton2/* krypton2
+# sshpass -p "ROTTEN" scp -R -P 2231 krypton2@krypton.labs.overthewire.org:/krypton/krypton2/* krypton2
 ```
 
 # solve

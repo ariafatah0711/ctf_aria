@@ -83,49 +83,59 @@ git clone https://github.com/ariafatah0711/ctf_aria.git
 <a href="https://github.com/ariafatah0711/ariafatah0711/blob/main/LICENSE" alt="LICENSE"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=MIT&color=000000"></a>
 """
 
-def generate_file_list(path, type="md"):
+def generate_file_list(path, output_type="md"):
     output = ""
-    exclude_dirs = {".git", "tool", "_bak", "_layouts", "thm_learn"}
+    exclude_dirs = {".git", "tool", "_bak", "_layouts", "thm_learn", ".vscode", "_includes", "docs"}
+    folder_structure = {}
 
     for dirpath, dirnames, filenames in os.walk(path):
-        dirnames[:] = [d for d in dirnames if d not in exclude_dirs] # exclaude
-
+        dirnames[:] = [d for d in dirnames if d not in exclude_dirs]
+        
         if dirpath == path:
             continue
-          
+        
+        relative_path = os.path.relpath(dirpath, root_path)
+        parts = relative_path.split(os.sep)
+        
+        # Menyusun struktur folder
+        current_level = folder_structure
+        for part in parts:
+            if part not in current_level:
+                current_level[part] = {}
+            current_level = current_level[part]
+
         print(dirpath)
         markdown_files = sorted([f for f in filenames if f.endswith('.md')])
         if markdown_files:
-            relative_path = os.path.relpath(dirpath, root_path)
-            folder_name = os.path.basename(relative_path)
-
-            # output += f"<details>\n<summary><b>{relative_path}</b></summary>\n\n"
-            output += f"<details>\n<summary><b>{relative_path}</b></summary>\n<ul>\n"            
-
-            for file in markdown_files:
-                # Ganti spasi dengan %20 untuk URL
-                if type == "md":
-                  file_path = os.path.join(relative_path, file).replace("\\", "/").replace(" ", "%20")
-                if type == "html":
-                  file_path = os.path.join(relative_path, file).replace("\\", "/").replace(".md", ".html")
-
-                file = os.path.splitext(file)[0]
-                # output += f"- [{file}]({file_path})\n"
-                output += f" <li><a href='{file_path}'>{file}</a></li>\n"
-              
-            output += "</ul>\n"
-            output += "\n</details>\n\n"
-    return output
+            current_level["_files"] = markdown_files
+    
+    def generate_html(nested_dict, parent_path=""):
+        html = ""
+        for key, value in nested_dict.items():
+            if key == "_files":
+                html += "<ul>\n"
+                for file in value:
+                    file_path = os.path.join(parent_path, file).replace("\\", "/").replace(" ", "%20")
+                    if output_type == "html":
+                        file_path = file_path.replace(".md", ".html")
+                    file_name = os.path.splitext(file)[0]
+                    html += f"  <li><a href='{file_path}'>{file_name}</a></li>\n"
+                html += "</ul>\n"
+            else:
+                new_parent_path = os.path.join(parent_path, key).replace("\\", "/")
+                html += f"<details>\n<summary><b>{key}</b></summary>\n"
+                html += generate_html(value, new_parent_path)
+                html += "</details>\n\n"
+        return html
+    
+    return generate_html(folder_structure)
 
 root_path = "."
-# md
 file_list_content_md = generate_file_list(root_path, "md")
 markdown_content_md = header + file_list_content_md + footer
-# html
 file_list_content_html = generate_file_list(root_path, "html")
 markdown_content_html = header + file_list_content_html + footer
 
-# write
 with open("README.md", "w", encoding='utf-8') as readme:
     readme.write(markdown_content_md)
 

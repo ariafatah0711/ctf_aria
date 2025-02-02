@@ -52,14 +52,85 @@ Good Luck!
 sshpass -p "RANDOM" ssh -o StrictHostKeyChecking=no krypton6@krypton.labs.overthewire.org -p 2231
 
 # scp
-sshpass -p "RANDOM" scp -R -P 2231 krypton6@krypton.labs.overthewire.org:/krypton/krypton6/* krypton6
+# sshpass -p "RANDOM" scp -R -P 2231 krypton6@krypton.labs.overthewire.org:/krypton/krypton6/* krypton6
 ```
 
 # solve
-## Penyelesaian Menggunakan Tool Online
+```bash
+cd /krypton/krypton6
+
+workdir=$(mktemp -d)
+cd $workdir
+ln -s /krypton/krypton6/keyfile.dat
+
+chmod 777 -R .
+
+# example encrypt
+echo "ARIAFATAHARIAFATAH" > plain.txt
+/krypton/krypton6/encrypt6 plain.txt cipher
+cat cipher
+# EZKTIGRIFZBBHSSBRM
+
+xxd plain.txt # binary
+
+xxd -b plain.txt # binear
+xxd -b cipher # binear 
+```
+
+## tabble
+```bash
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+01234567890123456789012345
+
+P = 01000001 01010010 01001001 01000001 01000110 01000001 01010100 01000001 01001000 01000001 01010010 01001001 01000001 01000110 01000001 01010100 01000001 01001000
+C = 01000101 01011010 01001011 01010100 01001001 01000111 01010010 01001001 01000110 01011010 01000010 01000010 01001000 01010011 01010011 01000010 01010010 01001101
+K = 
+
+# A => E
+P = 01000001
+C = 01000101
+K = 00000100 => 4 => E
+
+# R => Z
+P = 01010010
+C = 01011010
+K = 00001000 => 8 => I
+
+## namun cara ini lama ada 1 cara biar enak dengan membuat sebuah plain text yaitu AAAAAA
+# karena apapaun yang di xor dengan A akan menghasilkan key itu sendiri
+p = 00000000
+k = 00000001 => 1 => b
+c = 00000001 => 1 => b
+
+p = 00000000
+k = 00001001 => 9 => j
+c = 00001001 => 9 => j
+```
+
+## solve with the key AAAA...
+```bash
+python3 -c "print('A'*100)" > a
+/krypton/krypton6/encrypt6 a cipher
+cat cipher 
+# EICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZ
+# EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
+
+cat /krypton/krypton6/krypton7 
+# PNUKLYLWRQKGKBE
+
+echo "EICTDGYIYZKTHNSIRFXYCPFUEOCKRN" > key
+
+KEY=EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
+PLAIN=PNUKLYLWRQKGKBE
 
 
+# host
+git clone https://github.com/m-rosinsky/Krypton_Scripts; cp Krypton_Scripts/vignere_decoder.py .; rm -rf Krypton_Scripts
+sshpass -p "RANDOM" scp -P 2231 vignere_decoder.py krypton6@krypton.labs.overthewire.org:/tmp/<path>
 
-## solve with cli
+# krytpon
+python3 vignere_decoder.py /krypton/krypton6/krypton7 "EICTDGYIYZKTHNSIRFXYCPFUEOCKRN"
+```
 
 # flag
+LFSRISNOTRANDOM
