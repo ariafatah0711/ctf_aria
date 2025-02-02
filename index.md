@@ -57,7 +57,7 @@ This file is what I studied while learning CTF
 # 📄 File List
 
 <details>
-<summary><b>thm_ctf</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>thm_ctf</b></summary>
 <ul>
   <li><a href='thm_ctf/E1_bounty%20hacker.html'>E1_bounty hacker</a></li>
   <li><a href='thm_ctf/E1_rootme.html'>E1_rootme</a></li>
@@ -67,7 +67,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>ringzer</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>ringzer</b></summary>
 <details>
 <summary><b>Jail_Escaping</b></summary>
 <ul>
@@ -94,7 +94,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>picoCTF</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>picoCTF</b></summary>
 <details>
 <summary><b>web_exploit</b></summary>
 <ul>
@@ -218,7 +218,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>overthewire</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>overthewire</b></summary>
 <details>
 <summary><b>leviathan</b></summary>
 <ul>
@@ -252,10 +252,6 @@ This file is what I studied while learning CTF
   <li><a href='overthewire/natas/level%2019%20un.html'>level 19 un</a></li>
   <li><a href='overthewire/natas/level%2020%20un.html'>level 20 un</a></li>
 </ul>
-<details>
-<summary><b>solve</b></summary>
-</details>
-
 </details>
 
 <details>
@@ -308,22 +304,6 @@ This file is what I studied while learning CTF
   <li><a href='overthewire/krypton/level%2006.html'>level 06</a></li>
   <li><a href='overthewire/krypton/level%2007.html'>level 07</a></li>
 </ul>
-<details>
-<summary><b>krypton3</b></summary>
-</details>
-
-<details>
-<summary><b>krypton5</b></summary>
-</details>
-
-<details>
-<summary><b>krypton1</b></summary>
-</details>
-
-<details>
-<summary><b>krypton4</b></summary>
-</details>
-
 </details>
 
 </details>
