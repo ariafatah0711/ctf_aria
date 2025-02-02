@@ -57,7 +57,7 @@ This file is what I studied while learning CTF
 # 📄 File List
 
 <details>
-<summary style='margin: 20px; color: #fc0;'><b>thm_ctf</b></summary>
+<summary><b>thm_ctf</b></summary>
 <ul>
   <li><a href='thm_ctf/E1_bounty%20hacker.md'>E1_bounty hacker</a></li>
   <li><a href='thm_ctf/E1_rootme.md'>E1_rootme</a></li>
@@ -67,9 +67,9 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary style='margin: 20px; color: #fc0;'><b>ringzer</b></summary>
+<summary><b>ringzer</b></summary>
 <details>
-<summary><b>Jail_Escaping</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>Jail_Escaping</b></summary>
 <ul>
   <li><a href='ringzer/Jail_Escaping/bash%20jail%201.md'>bash jail 1</a></li>
   <li><a href='ringzer/Jail_Escaping/bash%20jail%202.md'>bash jail 2</a></li>
@@ -78,7 +78,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>cryptography</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>cryptography</b></summary>
 <ul>
   <li><a href='ringzer/cryptography/1_File%20recovery.md'>1_File recovery</a></li>
   <li><a href='ringzer/cryptography/1_Some%20martian%20message.md'>1_Some martian message</a></li>
@@ -94,9 +94,9 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary style='margin: 20px; color: #fc0;'><b>picoCTF</b></summary>
+<summary><b>picoCTF</b></summary>
 <details>
-<summary><b>web_exploit</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>web_exploit</b></summary>
 <ul>
   <li><a href='picoCTF/web_exploit/E_Bookmarklet.md'>E_Bookmarklet</a></li>
   <li><a href='picoCTF/web_exploit/E_Cookies.md'>E_Cookies</a></li>
@@ -117,7 +117,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>reverse</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>reverse</b></summary>
 <ul>
   <li><a href='picoCTF/reverse/E_Transformation.md'>E_Transformation</a></li>
   <li><a href='picoCTF/reverse/E_vault-door-training.md'>E_vault-door-training</a></li>
@@ -128,7 +128,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>forensics</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>forensics</b></summary>
 <ul>
   <li><a href='picoCTF/forensics/E_CanYouSee.md'>E_CanYouSee</a></li>
   <li><a href='picoCTF/forensics/E_Glory%20of%20the%20Garden.md'>E_Glory of the Garden</a></li>
@@ -141,7 +141,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>cryptography</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>cryptography</b></summary>
 <ul>
   <li><a href='picoCTF/cryptography/E_13.md'>E_13</a></li>
   <li><a href='picoCTF/cryptography/E_Mod%2026.md'>E_Mod 26</a></li>
@@ -163,7 +163,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>general</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>general</b></summary>
 <ul>
   <li><a href='picoCTF/general/E_2Warm.md'>E_2Warm</a></li>
   <li><a href='picoCTF/general/E_Bases.md'>E_Bases</a></li>
@@ -218,9 +218,9 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary style='margin: 20px; color: #fc0;'><b>overthewire</b></summary>
+<summary><b>overthewire</b></summary>
 <details>
-<summary><b>leviathan</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>leviathan</b></summary>
 <ul>
   <li><a href='overthewire/leviathan/level%2001.md'>level 01</a></li>
   <li><a href='overthewire/leviathan/level%2002%20un.md'>level 02 un</a></li>
@@ -228,7 +228,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>natas</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>natas</b></summary>
 <ul>
   <li><a href='overthewire/natas/level%2000.md'>level 00</a></li>
   <li><a href='overthewire/natas/level%2001.md'>level 01</a></li>
@@ -255,7 +255,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>bandit</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>bandit</b></summary>
 <ul>
   <li><a href='overthewire/bandit/level%2001.md'>level 01</a></li>
   <li><a href='overthewire/bandit/level%2002.md'>level 02</a></li>
@@ -294,7 +294,7 @@ This file is what I studied while learning CTF
 </details>
 
 <details>
-<summary><b>krypton</b></summary>
+<summary style='margin: 20px; color: #fc0;'><b>krypton</b></summary>
 <ul>
   <li><a href='overthewire/krypton/level%2001.md'>level 01</a></li>
   <li><a href='overthewire/krypton/level%2002.md'>level 02</a></li>

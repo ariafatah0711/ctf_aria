@@ -126,7 +126,7 @@ def generate_file_list(path, output_type="md"):
                 html += "</ul>\n"
             else:
                 new_parent_path = os.path.join(parent_path, key).replace("\\", "/")
-                style = " style='margin: 20px; color: #fc0;'" if first_level else ""
+                style = " style='margin: 20px; color: #fc0;'" if first_level==False else ""
                 html += f"<details>\n<summary{style}><b>{key}</b></summary>\n"
                 html += generate_html(value, new_parent_path, first_level=False)
                 html += "</details>\n\n"
