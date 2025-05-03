@@ -106,6 +106,7 @@ This file is what I studied while learning CTF
   <li><a href='picoCTF/web_exploit/E_Inspect_HTML.md'>E_Inspect_HTML</a></li>
   <li><a href='picoCTF/web_exploit/E_IntroToBurp.md'>E_IntroToBurp</a></li>
   <li><a href='picoCTF/web_exploit/E_Local%20Authority.md'>E_Local Authority</a></li>
+  <li><a href='picoCTF/web_exploit/E_SSTI1.md'>E_SSTI1</a></li>
   <li><a href='picoCTF/web_exploit/E_Scavenger%20Hunt.md'>E_Scavenger Hunt</a></li>
   <li><a href='picoCTF/web_exploit/E_Unminify.md'>E_Unminify</a></li>
   <li><a href='picoCTF/web_exploit/E_WebDecode.md'>E_WebDecode</a></li>
@@ -306,6 +307,14 @@ This file is what I studied while learning CTF
 </ul>
 </details>
 
+</details>
+
+<details>
+<summary><b>dvwa</b></summary>
+<ul>
+  <li><a href='dvwa/low.md'>low</a></li>
+  <li><a href='dvwa/medium.md'>medium</a></li>
+</ul>
 </details>
 
 <p id="download"></p>
