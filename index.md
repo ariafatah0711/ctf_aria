@@ -147,6 +147,7 @@ This file is what I studied while learning CTF
   <li><a href='picoCTF/cryptography/E_13.html'>E_13</a></li>
   <li><a href='picoCTF/cryptography/E_Mod%2026.html'>E_Mod 26</a></li>
   <li><a href='picoCTF/cryptography/E_The%20Numbers.html'>E_The Numbers</a></li>
+  <li><a href='picoCTF/cryptography/E_hashcrack.html'>E_hashcrack</a></li>
   <li><a href='picoCTF/cryptography/E_interencdec.html'>E_interencdec</a></li>
   <li><a href='picoCTF/cryptography/M_Easy1.html'>M_Easy1</a></li>
   <li><a href='picoCTF/cryptography/M_Mind%20your%20Ps%20and%20Qs.html'>M_Mind your Ps and Qs</a></li>
@@ -174,6 +175,7 @@ This file is what I studied while learning CTF
   <li><a href='picoCTF/general/E_Codebook.html'>E_Codebook</a></li>
   <li><a href='picoCTF/general/E_Collaborative%20Development.html'>E_Collaborative Development</a></li>
   <li><a href='picoCTF/general/E_Commitment%20Issues.html'>E_Commitment Issues</a></li>
+  <li><a href='picoCTF/general/E_Fantasy_CTF.html'>E_Fantasy_CTF</a></li>
   <li><a href='picoCTF/general/E_First%20Find.html'>E_First Find</a></li>
   <li><a href='picoCTF/general/E_First%20Grep.html'>E_First Grep</a></li>
   <li><a href='picoCTF/general/E_Glitch%20Cat.html'>E_Glitch Cat</a></li>
