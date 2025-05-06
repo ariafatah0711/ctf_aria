@@ -1,0 +1,38 @@
+﻿Created By Exterro® FTK® Imager 4.7.3.81 
+
+Case Information: 
+Acquired using: ADI4.7.3.81
+Case Number: 
+Evidence Number: 
+Unique Description: 
+Examiner: 
+Notes: 
+
+--------------------------------------------------------------
+
+Information for C:\Users\CLIENT\Desktop\Evident.ad1:
+[Custom Content Sources]
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Windows|System32|config|DEFAULT|*(Wildcard,Consider Case,Include Subdirectories)
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Windows|System32|config|SAM|*(Wildcard,Consider Case,Include Subdirectories)
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Windows|System32|config|SOFTWARE|*(Wildcard,Consider Case,Include Subdirectories)
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Windows|System32|config|SECURITY|*(Wildcard,Consider Case,Include Subdirectories)
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Windows|System32|config|SYSTEM|*(Wildcard,Consider Case,Include Subdirectories)
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Users|CLIENT|NTUSER.DAT(Exact)
+ \\.\PHYSICALDRIVE0:Basic data partition (3) [60798MB]:NONAME [NTFS]|[root]|Users|CLIENT|AppData|Local|Microsoft|Windows|UsrClass.dat(Exact)
+[Computed Hashes]
+ MD5 checksum:    321067fd18e0f653f96dbb870acfe58c
+ SHA1 checksum:   4bebf6fb8cc3152c60329242355907bb9a61c073
+
+Image information:
+ Acquisition started:   Sat May  3 14:31:04 2025
+ Acquisition finished:  Sat May  3 14:31:09 2025
+ Segment list:
+  C:\Users\CLIENT\Desktop\Evident.ad1
+ COMPUTED HASH :  321067fd18e0f653f96dbb870acfe58c
+ COMPUTED HASH :  4bebf6fb8cc3152c60329242355907bb9a61c073
+
+Image Verification Results:
+ Verification started:  Sat May  3 14:31:09 2025
+ Verification finished: Sat May  3 14:31:09 2025
+ MD5 checksum:    321067fd18e0f653f96dbb870acfe58c : verified
+ SHA1 checksum:   4bebf6fb8cc3152c60329242355907bb9a61c073 : verified

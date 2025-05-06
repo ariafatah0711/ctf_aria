@@ -1,0 +1,11 @@
+# Abaikan semua User Data
+**/User Data/**
+
+# Kecualikan folder Default di dalam User Data
+!**/User Data/Default/
+# !**/User Data/Default/**
+!**/User Data/Default/History
+!**/User Data/Default/Preferences
+!**/User Data/Default/Favicons
+!**/User Data/Default/Web Data
+!**/User Data/Default/Extensions
