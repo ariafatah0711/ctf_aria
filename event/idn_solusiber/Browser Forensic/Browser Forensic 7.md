@@ -13,4 +13,4 @@ format flag : IDN_FLAG{Jawaban yang disoal}
 - dan saya langsung aja menginputkan flagnya dengan format IDN_FLAG{1746250363}
 
 ## flag
-IND_FLAG{1746250363]
+IDN_FLAG{1746250363]
