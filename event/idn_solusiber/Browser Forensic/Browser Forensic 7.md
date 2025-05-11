@@ -6,11 +6,11 @@ date_created pada email menggunakan tools DB Browser SQLite ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini kita disuruh mencari tanggal pembuatan email menggunakan tools DB Browser SQLite karena kita sebelumnya sudah mengetahui emailnya
-- dan biasanya untuk pembuatan user berada di **Web Data → untuk autofill form, termasuk email**
-- lalu saya menggunakan tool **sqlitebrowser** dan membuka file **Web Data**
+- Di sini kita diminta untuk mencari tanggal pembuatan email, dan karena sebelumnya kita sudah mengetahui alamat emailnya, langkah selanjutnya adalah mencari data terkait menggunakan DB Browser for SQLite.
+- Biasanya, informasi pembuatan user/email tersimpan di dalam file Web Data, khususnya pada bagian autofill form.
+- Saya pun membuka file Web Data menggunakan SQLite Browser:
   ![alt text](<images/Browser Forensic 7/image.png>)
-- dan saya langsung aja menginputkan flagnya dengan format IDN_FLAG{1746250363}
+- Setelah menelusuri datanya, saya menemukan timestamp yang mengindikasikan waktu pembuatan email. Saya kemudian mencoba langsung memasukkan flag dengan format: ```IDN_FLAG{1746250363}```
 
 ## flag
 IDN_FLAG{1746250363]

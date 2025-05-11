@@ -6,10 +6,11 @@ Apa Containder ID USB Yang dipakai Hacker ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini kita disuruh mencari Containder ID USB yang dipakai hacker
-- saya mencoba dengan menggunakan perintah ```reglookup USBTOR.hiv | grep ContainerID```
+- Pada tantangan ini, kita diminta untuk mencari Container ID dari USB yang digunakan oleh hacker.
+- Saya menggunakan tool reglookup dan menjalankan perintah berikut untuk mencari nilai ContainerID: ```reglookup USBTOR.hiv | grep ContainerID```
   ![alt text](<images/USB Forensic 3/image.png>)
-- setelah itu saya input flagnya dan berhasil **IDN_FLAG{11775948-7a76-52b3-9bc7-19cb3d487774}**
+- Perintah tersebut berhasil menampilkan nilai ContainerID yang diperlukan.
+- Setelah itu, saya memasukkan flag dengan format: **IDN_FLAG{11775948-7a76-52b3-9bc7-19cb3d487774}**
 
 ## flag
 IDN_FLAG{11775948-7a76-52b3-9bc7-19cb3d487774}

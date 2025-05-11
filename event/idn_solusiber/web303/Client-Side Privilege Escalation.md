@@ -3,11 +3,13 @@
 [website](https://ctf.solusiber.com/web_101/lab5/)
 
 ## solve
-- ketika dibuka webnya terdapat tampilan seperti ini dan ada current role namun disini rolenya masih guest, dan tidak mendapatkan akses
+- Saat membuka web, saya melihat tampilan yang menampilkan informasi role saat ini, yaitu: ```Current role: guest```
+- Sebagai guest, saya tidak memiliki akses untuk melihat protected content.
   ![alt text](<images/Client-Side Privilege Escalation/image.png>)
-- di deskripsi terdapat kata localstorage disini saya mengubah value localstorage yang user_role dari guest menjadi admin
+- Namun, dari deskripsi soal disebutkan kata kunci localStorage, sehingga saya mengecek isi localStorage melalui Developer Tools di browser.
+- Di sana saya menemukan item bernama user_role dengan nilai "guest". Saya mengubah nilainya menjadi "admin" secara manual.
   ![alt text](<images/Client-Side Privilege Escalation/image-1.png>)
-- ketika saya coba show protected content disitu saya berhasil mendapatkan flagnya
+- Setelah saya refresh atau klik kembali tombol Show Protected Content, saya berhasil mendapatkan flag dari aplikasi.
   ![alt text](<images/Client-Side Privilege Escalation/image-2.png>)
 
 ## flag

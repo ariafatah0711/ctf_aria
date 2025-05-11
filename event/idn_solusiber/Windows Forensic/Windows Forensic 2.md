@@ -7,10 +7,10 @@ format flag : IDN_FLAG{Jawaban yang disoal} example : xxxx-xx-xx xx:xx:xx \
 Auhtor: Aditya Firman
 
 ## solve
-- sekarang kita disuruh mencari tanggal dibuka file yang menyimpan credential
-- karena sebelumnya sudah ketemu filenya, kita hanya tinggal melihat tanggal dibuka filenya saja
+- Sekarang kita diminta untuk mencari tanggal terakhir file penyimpan credential dibuka.
+- Karena sebelumnya kita sudah berhasil menemukan nama filenya, langkah selanjutnya cukup melihat tanggal akses terakhir dari file tersebut.
   ![alt text](<images/Windows Forensic 2/image.png>)
-- dan saya submit flagnya dan berhasil
+- Setelah mendapatkan tanggal yang dimaksud, saya langsung submit flagnya sesuai format yang diminta — dan ternyata berhasil.
 
 ## flag
 IDN_FLAG{2025-05-03 07:16:29}

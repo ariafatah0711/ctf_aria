@@ -3,12 +3,13 @@
 -
 
 ## solve
-- disini terdapat web input jwt token, disini saya mencoba membuat jwt token di web [jwt.io](https://jwt.io/)
-- lalu saya mencoba beberapa payload, dan ketika saya coba membuat jwt token dengan payload ```{"role":"admin"}``` 
+- Pada tantangan ini, tersedia sebuah web yang meminta input berupa JWT token.
+- Saya mencoba membuat JWT token sendiri menggunakan situs [jwt.io](https://jwt.io/). Awalnya, saya bereksperimen dengan beberapa payload, dan akhirnya saya mencoba payload berikut: ```{"role": "admin"}```
   ![alt text](<images/JWT Token Manipulation/image.png>)
-- lalu saya mencoba menyalin token tersebut ke web input jwt token, dan ternyata berhasil
+- Token yang dihasilkan kemudian saya salin dan masukkan ke dalam web pada kolom input JWT token.
+- Ternyata, token tersebut diterima, dan saya berhasil mendapatkan output berupa data terenkripsi yang kemungkinan besar merupakan flag.
   ![alt text](<images/JWT Token Manipulation/image-1.png>)
-- lalu saya mendecode dengan cyberchef dengan recipe **Magic** dan berhasil mendapatkan flagnya
+- Saya menyalin data tersebut dan mendekodenya menggunakan CyberChef dengan recipe Magic, dan berhasil mendapatkan flag aslinya.
   ![alt text](<images/JWT Token Manipulation/image-2.png>)
 
 ## flag

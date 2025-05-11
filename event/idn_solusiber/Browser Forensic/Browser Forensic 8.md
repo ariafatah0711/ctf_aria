@@ -6,15 +6,13 @@ url favicon, di website yang dicari oleh user ? ( tidak berkaitan dengan hacker 
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini saya mencoba mencari favicon untuk icon web yang pernah dikunjungi dan harus mencari yang bukan website berkaitan hacker
-- disini saya menggunakan tool **sqlitebrowser** dan membuka file Favicons
+- Di sini saya diminta untuk mencari favicon dari website yang pernah dikunjungi, dengan syarat favicon tersebut tidak berasal dari situs yang berkaitan dengan hacking.
+- Saya menggunakan DB Browser for SQLite dan membuka file Favicons:
   ![alt text](<images/Browser Forensic 8/image.png>)
-- atau kita bisa gunakan 
-  ```bash
-  sqlite3 Favicons
-  SQLite version 3.46.1 2024-08-13 09:16:08
-  Enter ".help" for usage hints.
-  sqlite> select * from Favicons;
+- Alternatifnya, kita juga bisa menggunakan command-line SQLite: ```sqlite3 Favicons```
+- Setelah masuk, saya menjalankan query: ```SELECT * FROM Favicons;```
+- Hasilnya menampilkan beberapa entri favicon:
+  ```
   1|https://ssl.gstatic.com/chrome/webstore/images/icon_48px.png|1
   2|https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico|1
   3|https://www.muslima.com/lp/paid-search/terra-assets/images/favicon-8b7d9ccfa1-3.ico|1
@@ -23,7 +21,7 @@ format flag : IDN_FLAG{Jawaban yang disoal}
   6|https://lolbas-project.github.io/assets/favicon.png|1
   ```
   ![alt text](<images/Browser Forensic 8/image-1.png>)
-- lalu saya mencoba salah satu itu yang menurut saya tidak berkaitan dengan hacking dan berhasil mendapatkan flagnya
+- Dari daftar tersebut, saya menganalisis dan memilih salah satu URL favicon yang menurut saya tidak berkaitan dengan aktivitas hacking. Setelah mencoba submit sebagai flag, ternyata berhasil dan saya mendapatkan flag yang benar.
 
 ## flag
 IDN_FLAG{https://www.muslima.com/lp/paid-search/terra-assets/images/favicon-8b7d9ccfa1-3.ico}

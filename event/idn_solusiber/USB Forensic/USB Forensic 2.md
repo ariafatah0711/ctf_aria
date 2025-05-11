@@ -6,10 +6,11 @@ ClassGUID Pada USB Hacker ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini kita disuruh mencari ClassGUID pada USB Hacker.
-- disini saya melihat hasil yang sebelumnya dan menemukan ClassGUID nya dengan perintah sebelumnya ```reglookup USBTOR.hiv | grep ClassGUID```
+- Pada tantangan ini, kita diminta untuk mencari ClassGUID dari perangkat USB.
+- Saya menggunakan tool reglookup untuk menganalisis file registry USBTOR.hiv. Dengan menjalankan perintah: ```reglookup USBTOR.hiv | grep ClassGUID```
   ![alt text](<images/USB Forensic 2/image-1.png>)
-- lalu tinggal input flagnya ```IDN_FLAG{4d36e967-e325-11ce-bfc1-08002be10318}```
+- Saya berhasil menemukan nilai ClassGUID yang dimaksud.
+- Setelah mendapatkan nilainya, saya langsung mencoba memasukkan flag dengan format berikut: ```IDN_FLAG{4d36e967-e325-11ce-bfc1-08002be10318}```
 
 ## flag
 IDN_FLAG{4d36e967-e325-11ce-bfc1-08002be10318}

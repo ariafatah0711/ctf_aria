@@ -6,14 +6,14 @@ CurrentBuild pada Windows ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini kita disuruh mencari Current Build pada Windows
-- jadi saya mencoba membuka file yang **SOFTWARE**
+- Di sini kita diminta untuk mencari Current Build pada Windows.
+- Untuk itu, saya membuka file **SOFTWARE** menggunakan Registry Explorer:
   ![alt text](<images/Windows Forensic 9/image.png>)
-- lalu saya membuka path yang ini untuk melihat informasi windows **SOFTWARE: Microsoft\Windows NT\CurrentVersion**
+- Kemudian saya menavigasi ke path berikut untuk melihat informasi versi Windows: ```SOFTWARE\Microsoft\Windows NT\CurrentVersion```
   ![alt text](<images/Windows Forensic 9/image-1.png>)
-- dan disini saya menemukan current buildnya
+- Di dalam path tersebut, saya menemukan nilai **CurrentBuild:**
   ![alt text](<images/Windows Forensic 9/image-2.png>)
-- dan saya coba submit flagnya dan berhasil
+- Setelah itu, saya submit nilainya sebagai flag — dan flag tersebut berhasil.
 
 ## flag
 IDN_FLAG{19045}

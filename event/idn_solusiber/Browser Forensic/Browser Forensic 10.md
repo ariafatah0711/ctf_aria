@@ -5,9 +5,10 @@ Version vpn V.. yang diinstal oleh user ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini karena sebelumnya sudah mengetahui vpn apa yang di install disini saya mencoba untuk melihat version dengan melihat file **Extension**
+- Karena sebelumnya saya sudah mengetahui VPN apa saja yang terinstal, selanjutnya saya mencoba mencari tahu versi dari VPN tersebut dengan mengecek direktori Extensions.
+- Saya menggunakan perintah berikut untuk melihat struktur folder hingga level 2: ```tree Extensions -L 2```
+- Hasilnya sebagai berikut:
   ```bash
-  tree Extensions -L 2
   Extensions
   ├── ghbmnnjooekpmoecnnnilnnbdlolhkhi
   │   └── 1.91.1_0
@@ -19,8 +20,7 @@ format flag : IDN_FLAG{Jawaban yang disoal}
   │   └── 3.90.4_0
   └── Temp
   ```
-- disini karena vpn yang sebeluumnya sudah ditemukan dan id extensionya **majdfhpaihoncoakbjgbdhglocklcgno**
-- disini jika kita lihat versinya adalah **3.4.3_0**
+- Karena ID extension majdfhpaihoncoakbjgbdhglocklcgno sebelumnya sudah diketahui sebagai salah satu VPN, saya tinggal mencocokkannya. Dari struktur folder di atas, terlihat bahwa versi VPN tersebut adalah: ```3.4.3_0```
 
 ## flag
 IDN_FLAG{3.4.3_0}

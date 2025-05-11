@@ -6,9 +6,11 @@ DisplayVersion pada Windows ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- disini kita disuruh mencari Display Version
-- disini saya masih di tempat yang sama seperti sebelumnya dan saya menemukan Display Versionya
+- Di sini kita diminta untuk mencari Display Version dari Windows.
+- Karena masih berada di lokasi yang sama seperti sebelumnya, yaitu:  ```SOFTWARE\Microsoft\Windows NT\CurrentVersion```
+- Saya langsung mencari nilai DisplayVersion di dalam key tersebut.
   ![alt text](<images/Windows Forensic 10/image.png>)
+- Setelah menemukannya, saya submit nilainya sebagai flag — dan flag tersebut berhasil.
 
 ## flag
 IDN_FLAG{22H2}

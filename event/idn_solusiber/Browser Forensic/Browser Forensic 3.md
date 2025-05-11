@@ -6,13 +6,13 @@ Streaming Website yang ditonton oleh user ? \
 format flag : IDN_FLAG{Jawaban yang disoal}
 
 ## solve
-- melanjutkan soal sebelumnya kita disuruh mencari website streming yang ditonton oleh user
-- disini saya menemukan beberapa web setelah melakukan pencarian dengan ini **SELECT url FROM urls;**
+- Melanjutkan soal sebelumnya, kita diminta untuk mencari website streaming yang dikunjungi oleh user. Saya mulai dengan menjalankan query: ```SELECT url FROM urls;```
+- Dari hasilnya, saya menemukan beberapa URL:
   ```bash
   https://www.netflix.com/
   https://www.netflix.com/id-en/
   ```
-- lalu saya mencoba submit dengan format seperti **IDN_FLAG{netflix}**, **IDN_FLAG{Netflix}** namun masih belum berhasil dan ketika saya coba dengan **IDN_FLAG{https://www.netflix.com/}** itu berhasil
+- Awalnya, saya mencoba submit flag dengan format seperti ```IDN_FLAG{netflix}``` dan ```IDN_FLAG{Netflix}```, tetapi hasilnya salah. Lalu saya mencoba submit menggunakan format lengkap URL, yaitu ```IDN_FLAG{https://www.netflix.com/}```, dan ternyata itu yang benar.
 
 ## flag
 IDN_FLAG{https://www.netflix.com/}
